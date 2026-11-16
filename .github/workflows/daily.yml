@@ -1,0 +1,42 @@
+name: Daily CBB sheet
+
+on:
+  schedule:
+    - cron: "0 14 * * *"    # ~6:00 AM Pacific: grade yesterday, build today's sheet
+    - cron: "30 21 * * *"   # ~1:30 PM Pacific: rerun to add Sasser (posts around midday CT)
+  workflow_dispatch: {}      # "Run workflow" button for manual runs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-sheet
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: America/Los_Angeles   # dates and tip-off times in Pacific
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Run
+        run: python cbb_consensus.py 2>&1 | tee run_log.txt
+      - name: Save results back to the repository
+        run: |
+          mkdir -p output && cp run_log.txt output/last_run_log.txt
+          git config user.name "cbb-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add output
+          git commit -m "Daily run $(date +'%Y-%m-%d %H:%M %Z')" || echo "nothing to commit"
+          git pull --rebase origin main || true
+          git push origin HEAD:main

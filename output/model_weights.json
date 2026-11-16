@@ -1,0 +1,31 @@
+{
+  "updated": "2026-11-16",
+  "n": 486,
+  "method": "cover",
+  "spread": {
+    "weights": {},
+    "bias": {},
+    "cap": null,
+    "n": 485,
+    "baseline_logloss": 0.6931,
+    "cv_logloss": 0.6936,
+    "cv_strong_picks": 0,
+    "cv_strong_hit": null
+  },
+  "total": {
+    "weights": {},
+    "bias": {
+      "torvik": 0.54,
+      "haslametrics": 3.0,
+      "massey": -0.33,
+      "talismanred": 0.32,
+      "dunkel": 0.26
+    },
+    "cap": null,
+    "n": 486,
+    "baseline_logloss": 0.6931,
+    "cv_logloss": 0.6937,
+    "cv_strong_picks": 0,
+    "cv_strong_hit": null
+  }
+}
