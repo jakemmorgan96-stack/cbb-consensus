@@ -43,7 +43,17 @@ def main():
             tags += f'<span class="tag b">TOTAL {e(bet_t)}: {e(r.get("Pick / O-U %"))}</span>'
         if watch:
             tags += f'<span class="tag w">Torvik watch: {e(watch)}</span>'
-        mline = " · ".join(f'{short} {e(r.get(col)) or "–"}' for col, short in models if r.get(col))
+        mrows = ""
+        for col, short in models:
+            base = col.replace(" (not in avg)", "")
+            sp = r.get(col)
+            tt = r.get(f"{base} total") or r.get(f"{base} total (not in avg)")
+            if not sp and not tt:
+                continue
+            mt = num(r.get("Market total"))
+            diff = f' <small>({num(tt) - mt:+.1f})</small>' if num(tt) is not None and mt is not None else ""
+            mrows += f"<tr><td>{short}</td><td>{e(sp) or '–'}</td><td>{e(tt) or '–'}{diff}</td></tr>"
+        mline = f'<table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr>{mrows}</table>' if mrows else ""
         cards.append(f"""
 <div class="{cls}">
   <div class="top"><span class="t">{e(r.get('Start')) or 'TBD'}</span>
@@ -77,13 +87,13 @@ def main():
  table{{width:100%;border-collapse:collapse;font-size:14px}} th{{text-align:left;font-size:11px;color:#888;font-weight:500}}
  td{{padding:3px 0;border-top:1px solid #f0f0f0}} td:first-child{{color:#777;width:28%}}
  td.big{{font-weight:700}} small{{color:#999}}
- .models{{font-size:12px;color:#666;margin-top:6px;line-height:1.5}}
+ .models{{margin-top:8px}} table.mt{{font-size:13px}} table.mt td{{padding:2px 0}}
  @media (prefers-color-scheme:dark){{body{{background:#111;color:#eee}}.card{{background:#1d1d1f}}td{{border-color:#2a2a2a}}
    .t{{color:#ddd}}.tag.w{{background:#3a2e00;color:#ffd666}}.tag.b{{background:#0f3321;color:#7ee2a8}}}}
 </style></head><body>
 <h1>CBB · {day:%a %b %-d}</h1>
 <div class="sub">{len(rows)} games · {n_bet} bets · {n_watch} Torvik-watch games (forward test, not bets).<br>
-Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+. * = not in the average.</div>
+Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+. Model totals show (+/–) vs the market total. * = not in the average.</div>
 {''.join(cards)}
 </body></html>"""
     dst = OUT / f"mobile_{ymd}.html"
