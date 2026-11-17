@@ -239,14 +239,14 @@ def dunkel_load(page, day: dt.date) -> str:
             clicks += 1
         except Exception as e:
             why = f"click failed: {str(e)[:80]}"; break
-        for _ in range(20):                      # up to 10 s for new cards
+        for _ in range(50):                      # up to 25 s for new cards (slower on cloud servers)
             page.wait_for_timeout(500)
             if len(cards()) > len(cs):
                 stalls = 0
                 break
         else:
             stalls += 1
-            if stalls >= 2:
+            if stalls >= 3:
                 why = "nothing new loaded"; break
     cs = cards()
     print(f"      Dunkel loader: {clicks} clicks, {len(cs)} cards, last {cs[-1] if cs else '-'}, stopped: {why}")
@@ -1662,6 +1662,17 @@ def main(argv=None):
         if args.dump:
             print(f"  {cfg['name']:<14} saved {cached.name} ({len(page)//1024} KB)"); continue
         got = parse_site(s, page, tm, day)
+        if not got and not args.from_cache and s != "sasser":
+            # Sites (Torvik especially) sometimes serve an empty or check page on the first hit
+            # from a cloud server; one retry after a pause usually gets the real page.
+            import time as _t
+            _t.sleep(20)
+            try:
+                page = fetch(s, url, cfg["wait_for"], day)
+                got = parse_site(s, page, tm, day)
+                print(f"  {cfg['name']:<14} retried after an empty first load")
+            except Exception as e:
+                print(f"  {cfg['name']:<14} retry failed: {e}")
         bad = [p for p in got if len(set(p.teams)) < 2]
         for p in bad:   # both names matched the same team - an alias problem; drop it, don't crash
             print(f"  WARNING {cfg['name']}: skipped a game where both teams read as {p.teams[0]!r}: {p.raw[:120]!r}")
