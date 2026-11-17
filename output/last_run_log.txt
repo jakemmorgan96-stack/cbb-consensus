@@ -49,13 +49,12 @@ Results log: 486 games graded (2026-11-05 to 2026-11-15)
     spread: no model beats a coin flip out-of-sample yet (market only)
     total:  no model beats a coin flip out-of-sample yet (market only)
 
-  Bart Torvik      22 games
+  Bart Torvik       0 games
   Haslametrics     22 games
   Massey           25 games
   Talisman Red     23 games
   Dunkel           10 games
   Sasser           21 games
-  Market (ESPN/DK)   22 games
 
 23 games -> cbb_consensus_20261116.csv, cbb_consensus_20261116.html
 
@@ -64,26 +63,26 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-11:00 AM Florida A&M       UTEP              no edge                               no edge               
-3:00 PM  Alcorn St.        Maryland          no edge                               no edge               
-3:00 PM  Iona              UMBC              no edge                               no edge               
-3:30 PM  Prairie View A&M  Ohio St.          no edge                               no edge               
-4:00 PM  The Citadel       Clemson           no edge                               no edge               
-4:00 PM  St. Thomas        LIU               no edge                               no edge               
-4:00 PM  Richmond          Virginia Tech     no edge                               no edge               
-4:00 PM  Jacksonville      Georgia           no edge                               no edge               
-4:00 PM  Western Kentucky  Tulsa             no edge                               no edge               
-4:00 PM  Eastern Kentucky  Kent St.          no edge                               no edge               
-4:00 PM  Grambling St.     Kentucky          no edge                               no edge               
-4:30 PM  Tarleton St.      Drake             no edge                               no edge               
-5:00 PM  Columbia          Northwestern      no edge                               no edge               
-5:00 PM  Western Illinois  Minnesota         no edge                               no edge               
-5:00 PM  Abilene Christian Missouri St.      no edge                               no edge               
-5:00 PM  Montana           Kansas St.        no edge                               no edge               
-5:00 PM  Central Arkansas  Oklahoma St.      no edge                               no edge               
-5:30 PM  Southeastern Loui Texas A&M         no edge                               no edge               
-6:30 PM  East Texas A&M    Oregon St.        no edge                               no edge               
-7:00 PM  Long Beach St.    UCLA              no edge                               no edge               
-7:00 PM  Portland St.      Saint Mary's      no edge                               no edge               
-7:00 PM  Texas Southern    UC San Diego      no edge                               no edge               
+         Texas Southern    UC San Diego                                                                  
+         East Texas A&M    Oregon St.                                                                    
+         Columbia          Northwestern                                                                  
+         Tarleton St.      Drake                                                                         
+         Grambling St.     Kentucky                                                                      
+         Montana           Kansas St.                                                                    
+         Central Arkansas  Oklahoma St.                                                                  
+         Long Beach St.    UCLA                                                                          
+         Eastern Kentucky  Kent St.                                                                      
+         Jacksonville      Georgia                                                                       
+         Alcorn St.        Maryland                                                                      
+         Portland St.      Saint Mary's                                                                  
+         Western Kentucky  Tulsa                                                                         
+         Western Illinois  Minnesota                                                                     
+         Richmond          Virginia Tech                                                                 
+         Iona              UMBC                                                                          
+         Abilene Christian Missouri St.                                                                  
+         Prairie View A&M  Ohio St.                                                                      
+         Southeastern Loui Texas A&M                                                                     
+         The Citadel       Clemson                                                                       
+         St. Thomas        LIU                                                                           
+         Florida A&M       UTEP                                                                          
          Arkansas          Indiana                                                                       
