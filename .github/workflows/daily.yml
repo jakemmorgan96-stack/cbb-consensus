@@ -32,7 +32,9 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
       - name: Run
-        run: python cbb_consensus.py 2>&1 | tee run_log.txt
+        run: |
+          python cbb_consensus.py 2>&1 | tee run_log.txt
+          python make_mobile.py || true
       - name: Save results back to the repository
         run: |
           mkdir -p output && cp run_log.txt output/last_run_log.txt
