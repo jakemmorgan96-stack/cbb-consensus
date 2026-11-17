@@ -942,6 +942,50 @@ def combine(projs: list[Proj], market: dict) -> list[Game]:
     return list(games.values())
 
 
+def fill_from_earlier(games: list[Game], day: dt.date) -> int:
+    """Re-running later in the day (e.g. a GitHub run that starts late, after tip-off) finds
+    games already underway: ESPN drops their lines and some sites drop them. Keep whatever the
+    earlier run saw for anything that is now missing, so a re-run never makes the sheet worse."""
+    raw = OUT / f"raw_{day:%Y%m%d}.csv"
+    if not raw.exists():
+        return 0
+    with open(raw, newline="", encoding="utf-8") as f:
+        prev = list(csv.DictReader(f))
+    byk = {g.teams: g for g in games}
+    filled = 0
+    f = lambda x: float(x) if x not in ("", None) else None
+    for r in prev:
+        k = frozenset((r["away"], r["home"]))
+        if len(k) < 2:
+            continue
+        g = byk.get(k)
+        if g is None:
+            g = Game(k, home=r["home"], away=r["away"])
+            games.append(g)
+            byk[k] = g
+        sgn = -1 if g.home != r["home"] else 1
+        for s in SITES:
+            ln, tt = f(r.get(f"{s}_line")), f(r.get(f"{s}_total"))
+            if s not in g.margins and ln is not None:
+                g.margins[s] = round(-ln * sgn, 1)
+                filled += 1
+            if s not in g.totals and tt is not None:
+                g.totals[s] = tt
+        m = dict(g.market or {})
+        m["home"] = g.home
+        changed = False
+        for key, col, signed in (("home_spread", "mkt_line", True), ("total", "mkt_total", False),
+                                 ("open_spread", "open_line", True), ("open_total", "open_total", False)):
+            v = f(r.get(col))
+            if m.get(key) is None and v is not None:
+                m[key] = v * sgn if signed else v
+                changed = True
+        if changed:
+            g.market = m
+            filled += 1
+    return filled
+
+
 def summarize(g: Game, sites: list[str], W: dict | None = None) -> dict:
     # Sites flagged out of the average (see in_avg) are still shown for reference.
     ms = [g.margins[s] for s in g.margins if in_avg(s, "spread")]
@@ -1636,6 +1680,9 @@ def main(argv=None):
         print(f"  Market lines failed: {e}")
 
     games = combine(projs, market)
+    kept = fill_from_earlier(games, day)
+    if kept:
+        print(f"  Kept {kept} lines from today's earlier run that are no longer posted (games started/finished)")
     W = load_weights()
     rows = [summarize(g, sites, W) for g in games
             if sum(SITES[x].get('in_consensus', True) for x in g.margins) >= args.min_models]

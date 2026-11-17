@@ -40,3 +40,10 @@ jobs:
           git commit -m "Daily run $(date +'%Y-%m-%d %H:%M %Z')" || echo "nothing to commit"
           git pull --rebase origin main || true
           git push origin HEAD:main
+      - name: Keep the downloaded pages for troubleshooting (3 days)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pages
+          path: cache/
+          retention-days: 3
