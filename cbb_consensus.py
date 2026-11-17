@@ -925,6 +925,9 @@ def combine(projs: list[Proj], market: dict) -> list[Game]:
         if p.home and not g.home:
             g.home = p.home
     for k, m in market.items():
+        if len(k) < 2:
+            print(f"  WARNING market: skipped a game where both teams read as {m.get('home')!r}")
+            continue
         g = games.setdefault(k, Game(k))
         g.home, g.market = m["home"], m
     for g in games.values():
@@ -1612,6 +1615,10 @@ def main(argv=None):
         if args.dump:
             print(f"  {cfg['name']:<14} saved {cached.name} ({len(page)//1024} KB)"); continue
         got = parse_site(s, page, tm, day)
+        bad = [p for p in got if len(set(p.teams)) < 2]
+        for p in bad:   # both names matched the same team - an alias problem; drop it, don't crash
+            print(f"  WARNING {cfg['name']}: skipped a game where both teams read as {p.teams[0]!r}: {p.raw[:120]!r}")
+        got = [p for p in got if len(set(p.teams)) == 2]
         if s == "sasser" and not got and re.search(r"no game projections", page, re.I):
             print(f"  {cfg['name']:<14} not posted yet (usually around midday CT) - re-run this afternoon to add it")
             continue
