@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "n": 486,
   "method": "cover",
   "spread": {
@@ -24,7 +24,7 @@
     "cap": null,
     "n": 486,
     "baseline_logloss": 0.6931,
-    "cv_logloss": 0.6937,
+    "cv_logloss": 0.6936,
     "cv_strong_picks": 0,
     "cv_strong_hit": null
   }
