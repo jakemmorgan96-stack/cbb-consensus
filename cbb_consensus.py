@@ -91,7 +91,7 @@ SITES = {
 
 # Runs inside the Haslametrics homepage: picks the date in its "upcoming games"
 # box and reads the projected score cells. Returns a JSON list of games.
-HASLA_JS = """(d) => {
+HASLA_JS = r"""(d) => {
   const sel = document.getElementById('cboUpcomingDates');
   if (![...sel.options].some(o => o.value == d)) return [];
   sel.value = d;
@@ -102,8 +102,15 @@ HASLA_JS = """(d) => {
   for (const g of [...xmlDoc.getElementsByTagName('tg')].filter(e => e.getAttribute('d') == d)) {
     const k = g.getAttribute('rkr');
     const cell = id => { const e = document.getElementById('tdUpcoming_' + k + '_' + id); return e ? e.innerText.trim() : null; };
-    out.push({away: g.getAttribute('t'), home: g.getAttribute('o'), neutral: g.getAttribute('s') != 'A',
-              away_pts: cell('1_sc'), home_pts: cell('2_sc')});
+    // The box doesn't always list the away team first (neutral-site games can show the
+    // better team on top), so match each score to the team name printed beside it.
+    const nm = id => (cell(id) || '').replace(/\s+\d+$/, '').trim();
+    const t = g.getAttribute('t'), o = g.getAttribute('o');
+    const n1 = nm('1'), n2 = nm('2');
+    let ap = cell('1_sc'), hp = cell('2_sc');
+    if (n1 == o && n2 == t) { [ap, hp] = [hp, ap]; }
+    else if (!(n1 == t && n2 == o)) { continue; }   // can't tell which score is whose: skip
+    out.push({away: t, home: o, neutral: g.getAttribute('s') != 'A', away_pts: ap, home_pts: hp});
   }
   return out;
 }"""
@@ -1666,13 +1673,16 @@ def main(argv=None):
             # Sites (Torvik especially) sometimes serve an empty or check page on the first hit
             # from a cloud server; one retry after a pause usually gets the real page.
             import time as _t
-            _t.sleep(20)
-            try:
-                page = fetch(s, url, cfg["wait_for"], day)
-                got = parse_site(s, page, tm, day)
-                print(f"  {cfg['name']:<14} retried after an empty first load")
-            except Exception as e:
-                print(f"  {cfg['name']:<14} retry failed: {e}")
+            for wait in (30, 60, 90):
+                _t.sleep(wait)
+                try:
+                    page = fetch(s, url, cfg["wait_for"], day)
+                    got = parse_site(s, page, tm, day)
+                except Exception as e:
+                    print(f"  {cfg['name']:<14} retry failed: {e}")
+                if got:
+                    print(f"  {cfg['name']:<14} loaded on retry")
+                    break
         bad = [p for p in got if len(set(p.teams)) < 2]
         for p in bad:   # both names matched the same team - an alias problem; drop it, don't crash
             print(f"  WARNING {cfg['name']}: skipped a game where both teams read as {p.teams[0]!r}: {p.raw[:120]!r}")

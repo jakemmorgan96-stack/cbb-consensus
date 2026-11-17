@@ -2,7 +2,9 @@ name: Daily CBB sheet
 
 on:
   schedule:
-    - cron: "0 14 * * *"    # ~6:00 AM Pacific: grade yesterday, build today's sheet
+    - cron: "0 14 * * *"     # ~6 AM PT: grade yesterday, build today's sheet
+    - cron: "0 16 * * *"     # ~8 AM PT (extra tries: Torvik sometimes blocks GitHub servers)
+    - cron: "0 18 * * *"     # ~10 AM PT
     - cron: "30 21 * * *"   # ~1:30 PM Pacific: rerun to add Sasser (posts around midday CT)
   workflow_dispatch: {}      # "Run workflow" button for manual runs
 
