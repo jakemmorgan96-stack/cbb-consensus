@@ -225,19 +225,20 @@ def dunkel_load(page, day: dt.date) -> str:
     import time as _t
     def cards():
         return [l.strip() for l in page.inner_text("body").splitlines() if DUNKEL_DATE_RX.match(l.strip())]
-    start, stalls = _t.time(), 0
+    start, stalls, why, clicks = _t.time(), 0, "time limit", 0
     while _t.time() - start < 180:
         cs = cards()
         last = dunkel_card_date(cs[-1], day) if cs else None
         if last and last > day:
-            break
+            why = "reached next day"; break
         btn = page.locator("#load-more-game")
         try:
             if btn.count() == 0 or not btn.first.is_visible():
-                break
+                why = "no load-more button"; break
             btn.first.click(timeout=10000)
-        except Exception:
-            break
+            clicks += 1
+        except Exception as e:
+            why = f"click failed: {str(e)[:80]}"; break
         for _ in range(20):                      # up to 10 s for new cards
             page.wait_for_timeout(500)
             if len(cards()) > len(cs):
@@ -246,7 +247,9 @@ def dunkel_load(page, day: dt.date) -> str:
         else:
             stalls += 1
             if stalls >= 2:
-                break
+                why = "nothing new loaded"; break
+    cs = cards()
+    print(f"      Dunkel loader: {clicks} clicks, {len(cs)} cards, last {cs[-1] if cs else '-'}, stopped: {why}")
     return page.inner_text("body")
 
 
@@ -1667,6 +1670,10 @@ def main(argv=None):
             print(f"  {cfg['name']:<14} not posted yet (usually around midday CT) - re-run this afternoon to add it")
             continue
         print(f"  {cfg['name']:<14} {len(got):>4} games")
+        if not got:   # show what the page actually said, to tell a block page from a layout change
+            from bs4 import BeautifulSoup
+            txt = re.sub(r"\s+", " ", BeautifulSoup(page, "html.parser").get_text(" "))[:300]
+            print(f"      ({len(page)//1024} KB page) {txt}")
         projs.extend(got)
     if args.dump:
         return
