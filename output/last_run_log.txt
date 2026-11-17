@@ -49,16 +49,18 @@ Results log: 508 games graded (2026-11-05 to 2026-11-16)
     spread: no model beats a coin flip out-of-sample yet (market only)
     total:  no model beats a coin flip out-of-sample yet (market only)
 
-  Bart Torvik      55 games
+  Bart Torvik    retried after an empty first load
+  Bart Torvik       0 games
+      (0 KB page)  ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provid
   Haslametrics     55 games
   WARNING Massey: skipped a game where both teams read as 'Pacific': 'Tue 11.17 | 10:00.PM.ET | Pacific Union | @ Pacific | (0-4) | # 139 (3-1) | 0 | 0 | 46 | 100 | 0 % | 100 % | --- | -53.5'
   Massey           57 games
   Talisman Red     55 games
-      Dunkel loader: 2 clicks, 10 cards, last Tuesday: 17 November | 15:00, stopped: nothing new loaded
+      Dunkel loader: 3 clicks, 10 cards, last Tuesday: 17 November | 15:00, stopped: nothing new loaded
   Dunkel            6 games
-  Sasser            0 games
-      (113 KB page) College Basketball Predictions — David Sasser DS David Sasser CBB CFB NFL NBA CBB CBB Predictions Tuesday, November 17 · Today's games Upcoming Game Analysis No game projections for today Check back when today's slate is available. © 2026 David Sasser Portfolio 
+  Sasser         not posted yet (usually around midday CT) - re-run this afternoon to add it
   Market (ESPN/DK)   55 games
+  Kept 55 lines from today's earlier run that are no longer posted (games started/finished)
 
 55 games -> cbb_consensus_20261117.csv, cbb_consensus_20261117.html
 
@@ -88,11 +90,11 @@ Start    Away              Home              Spread pick                   Flag 
 4:00 PM  Ball St.          Florida St.       no edge                               no edge               
 4:00 PM  Wagner            Saint Joseph's    no edge                               no edge               
 4:00 PM  Rider             Miami FL          no edge                               no edge               
+4:00 PM  Lehigh            Mount St. Mary's  no edge                               no edge               
 4:00 PM  Fordham           Manhattan         no edge                               no edge               
 4:00 PM  Akron             Bucknell          no edge                               no edge               
 4:00 PM  Green Bay         West Florida      no edge                               no edge               
 4:00 PM  Norfolk St.       Georgia Tech      no edge                               no edge               
-4:00 PM  Lehigh            Mount St. Mary's  no edge                               no edge               
 4:00 PM  Central Michigan  Dayton            no edge                               no edge               
 4:00 PM  Tennessee St.     South Florida     no edge                               no edge               
 4:30 PM  Jacksonville St.  Louisiana Tech    no edge                               no edge               
