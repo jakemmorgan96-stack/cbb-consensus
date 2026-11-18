@@ -49,8 +49,7 @@ Results log: 563 games graded (2026-11-05 to 2026-11-17)
     spread: no model beats a coin flip out-of-sample yet (market only)
     total:  no model beats a coin flip out-of-sample yet (market only)
 
-  Bart Torvik       0 games
-      (0 KB page)  ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provid
+  Bart Torvik      61 games (from manual/torvik_20261118.csv)
   Haslametrics     61 games
   Massey           62 games
   Talisman Red     61 games
@@ -72,27 +71,27 @@ Start    Away              Home              Spread pick                   Flag 
 3:30 PM  Tennessee Tech    UNC Asheville     no edge                               no edge               
 3:30 PM  IU Indy           Penn St.          no edge                               no edge               
 3:30 PM  Detroit Mercy     Eastern Michigan  no edge                               no edge               
-3:30 PM  Samford           USC Upstate       no edge                               no edge               
-3:30 PM  Navy              Georgetown        no edge                               no edge               
 3:30 PM  Chattanooga       Winthrop          no edge                               no edge               
+3:30 PM  Navy              Georgetown        no edge                               no edge               
+3:30 PM  Samford           USC Upstate       no edge                               no edge               
 4:00 PM  Siena             St. John's        no edge                               no edge               
 4:00 PM  Binghamton        Lafayette         no edge                               no edge               
-4:00 PM  Elon              South Carolina    no edge                               no edge               
 4:00 PM  Howard            Duquesne          no edge                               no edge               
-4:00 PM  Vermont           Yale              no edge                               no edge               
+4:00 PM  Elon              South Carolina    no edge                               no edge               
 4:00 PM  North Carolina Ce George Mason      no edge                               no edge               
 4:00 PM  Morgan St.        North Carolina A& no edge                               no edge               
-4:00 PM  Furman            Radford           no edge                               no edge               
 4:00 PM  Florida Gulf Coas Florida Atlantic  no edge                               no edge               
+4:00 PM  Vermont           Yale              no edge                               no edge               
 4:00 PM  Morehead St.      Ohio              no edge                               no edge               
-4:00 PM  Chicago St.       Illinois Chicago  no edge                               no edge               
-4:00 PM  Boston University Merrimack         no edge                               no edge               
-4:00 PM  Wofford           Charleston Southe no edge                               no edge               
+4:00 PM  Furman            Radford           no edge                               no edge               
 4:00 PM  VMI               Longwood          no edge                               no edge               
-4:00 PM  Mercer            Presbyterian      no edge                               no edge               
+4:00 PM  Boston University Merrimack         no edge                               no edge               
+4:00 PM  Chicago St.       Illinois Chicago  no edge                               no edge               
+4:00 PM  Coppin St.        La Salle          no edge                               no edge               
+4:00 PM  Wofford           Charleston Southe no edge                               no edge               
 4:00 PM  UNC Wilmington    LIU               no edge                               no edge               
+4:00 PM  Mercer            Presbyterian      no edge                               no edge               
 4:00 PM  Brown             Holy Cross        no edge                               no edge               
 4:00 PM  NJIT              Fairleigh Dickins no edge                               no edge               
-4:00 PM  Coppin St.        La Salle          no edge                               no edge               
 4:00 PM  James Madison     Towson            no edge                               no edge               
 4:30 PM  Kansas            West Virginia     no edge                               no edge               
