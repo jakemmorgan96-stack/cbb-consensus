@@ -54,10 +54,12 @@ def main():
             diff = f' <small>({num(tt) - mt:+.1f})</small>' if num(tt) is not None and mt is not None else ""
             mrows += f"<tr><td>{short}</td><td>{e(sp) or '–'}</td><td>{e(tt) or '–'}{diff}</td></tr>"
         mline = f'<table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr>{mrows}</table>' if mrows else ""
+        gid = e(f"{r['Away']}@{r['Home']}")
         cards.append(f"""
-<div class="{cls}">
+<div class="{cls}" data-id="{gid}">
   <div class="top"><span class="t">{e(r.get('Start')) or 'TBD'}</span>
-    <span class="m">{e(r.get('# models'))} models · SD {e(r.get('Model disagreement (SD)')) or '–'}</span></div>
+    <span class="m">{e(r.get('# models'))} models · SD {e(r.get('Model disagreement (SD)')) or '–'}
+    <button class="hide" onclick="toggle(this)">Hide</button></span></div>
   <div class="teams">{e(r['Away'])} <span class="at">@</span> {e(r['Home'])}</div>
   {tags}
   <table>
@@ -88,13 +90,44 @@ def main():
  td{{padding:3px 0;border-top:1px solid #f0f0f0}} td:first-child{{color:#777;width:28%}}
  td.big{{font-weight:700}} small{{color:#999}}
  .models{{margin-top:8px}} table.mt{{font-size:13px}} table.mt td{{padding:2px 0}}
+ .hide{{margin-left:8px;font-size:12px;padding:3px 10px;border-radius:12px;border:1px solid #ccc;background:#f7f7f7;color:#444}}
+ .card.hidden{{display:none}} body.showall .card.hidden{{display:block;opacity:.45}}
+ body.showall .card.hidden .hide{{background:#444;color:#fff}}
+ .bar{{position:sticky;top:0;background:inherit;padding:6px 0 8px;z-index:2;display:flex;gap:8px}}
+ .bar button{{font-size:13px;padding:6px 12px;border-radius:14px;border:1px solid #ccc;background:#fff;color:#333}}
  @media (prefers-color-scheme:dark){{body{{background:#111;color:#eee}}.card{{background:#1d1d1f}}td{{border-color:#2a2a2a}}
-   .t{{color:#ddd}}.tag.w{{background:#3a2e00;color:#ffd666}}.tag.b{{background:#0f3321;color:#7ee2a8}}}}
+   .t{{color:#ddd}}.tag.w{{background:#3a2e00;color:#ffd666}}.hide,.bar button{{background:#2a2a2c;color:#ddd;border-color:#444}}.tag.b{{background:#0f3321;color:#7ee2a8}}}}
 </style></head><body>
 <h1>CBB · {day:%a %b %-d}</h1>
 <div class="sub">{len(rows)} games · {n_bet} bets · {n_watch} Torvik-watch games (forward test, not bets).<br>
 Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+. Model totals show (+/–) vs the market total. * = not in the average.</div>
+<div class="bar"><button id="sh" onclick="document.body.classList.toggle('showall');upd()"></button>
+<button onclick="if(confirm('Unhide all games?')){{hidden.clear();save();apply()}}">Unhide all</button></div>
 {''.join(cards)}
+<script>
+const KEY = "cbb_hidden_{ymd}";
+let hidden = new Set();
+try {{ hidden = new Set(JSON.parse(localStorage.getItem(KEY) || "[]")); }} catch (e) {{}}
+function save() {{ try {{ localStorage.setItem(KEY, JSON.stringify([...hidden])); }} catch (e) {{}} }}
+function upd() {{
+  const all = document.body.classList.contains('showall');
+  document.getElementById('sh').textContent = (all ? 'Hide hidden' : 'Show hidden') + ' (' + hidden.size + ')';
+}}
+function apply() {{
+  document.querySelectorAll('.card').forEach(c => {{
+    const h = hidden.has(c.dataset.id);
+    c.classList.toggle('hidden', h);
+    c.querySelector('.hide').textContent = h ? 'Unhide' : 'Hide';
+  }});
+  upd();
+}}
+function toggle(b) {{
+  const id = b.closest('.card').dataset.id;
+  hidden.has(id) ? hidden.delete(id) : hidden.add(id);
+  save(); apply();
+}}
+apply();
+</script>
 </body></html>"""
     dst = OUT / f"mobile_{ymd}.html"
     dst.write_text(page, encoding="utf-8")
