@@ -58,8 +58,8 @@ Results log: 508 games graded (2026-11-05 to 2026-11-16)
       Dunkel loader: 3 clicks, 10 cards, last Tuesday: 17 November | 16:00, stopped: nothing new loaded
   Dunkel           10 games
   Sasser           48 games
-  Market (ESPN/DK)   49 games
-  Kept 61 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)   27 games
+  Kept 83 lines from today's earlier run that are no longer posted (games started/finished)
 
 55 games -> cbb_consensus_20261117.csv, cbb_consensus_20261117.html
 
@@ -68,28 +68,6 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-3:30 PM  Lipscomb          Purdue            no edge                               no edge               
-4:00 PM  Illinois          Duke              no edge                               no edge               
-4:00 PM  Sacred Heart      Providence        no edge                               no edge               
-4:00 PM  Cleveland St.     Xavier            no edge                               no edge               
-4:00 PM  Charlotte         Davidson          no edge                               no edge               
-4:00 PM  Mississippi St.   UCF               no edge                               no edge               
-4:00 PM  Bowling Green     William & Mary    no edge                               no edge               
-4:00 PM  Villanova         Pittsburgh        no edge                               no edge               
-4:00 PM  Wagner            Saint Joseph's    no edge                               no edge               
-4:00 PM  Central Michigan  Dayton            no edge                               no edge               
-4:00 PM  East Tennessee St Marshall          no edge                               no edge               
-4:00 PM  Western Carolina  Butler            no edge                               no edge               
-4:00 PM  Ball St.          Florida St.       no edge                               no edge               
-4:00 PM  Rider             Miami FL          no edge                               no edge               
-4:00 PM  Akron             Bucknell          no edge                               no edge               
-4:00 PM  Monmouth          Wake Forest       no edge                               no edge               
-4:00 PM  Cal St. Northridg Troy              no edge                               no edge               
-4:00 PM  Lehigh            Mount St. Mary's  no edge                               no edge               
-4:00 PM  Fordham           Manhattan         no edge                               no edge               
-4:00 PM  Green Bay         West Florida      no edge                               no edge               
-4:00 PM  Norfolk St.       Georgia Tech      no edge                               no edge               
-4:00 PM  Tennessee St.     South Florida     no edge                               no edge               
 4:30 PM  Jacksonville St.  Louisiana Tech    no edge                               no edge               
 4:30 PM  Arkansas          Indiana           no edge                               no edge               
 4:30 PM  FIU               UAB               no edge                               no edge               
@@ -98,3 +76,25 @@ Start    Away              Home              Spread pick                   Flag 
 5:00 PM  Lamar             Nebraska Omaha    no edge                               no edge               
 5:00 PM  Lindenwood        Northern Iowa     no edge                               no edge               
 5:00 PM  Maryland Eastern  DePaul            no edge                               no edge               
+5:00 PM  Bellarmine        Illinois St.      no edge                               no edge               
+5:00 PM  UT Arlington      Southern Miss     no edge                               no edge               
+5:00 PM  Eastern Illinois  Vanderbilt        no edge                               no edge               
+5:00 PM  Le Moyne          Evansville        no edge                               no edge               
+5:00 PM  Oral Roberts      SMU               no edge                               no edge               
+5:00 PM  Middle Tennessee  Georgia Southern  no edge                               no edge               
+5:00 PM  SIUE              North Dakota      no edge                               no edge               
+5:00 PM  Texas A&M Corpus  Rice              no edge                               no edge               
+5:30 PM  Eastern Washingto Utah              no edge                               no edge               
+5:30 PM  Sam Houston St.   Wyoming           no edge                               no edge               
+5:30 PM  Nicholls          Mississippi       no edge                               no edge               
+6:00 PM  Alabama St.       UC Davis          no edge                               no edge               
+6:00 PM  Old Dominion      Virginia          no edge                               no edge               
+6:00 PM  Michigan St.      Tennessee         no edge                               no edge               
+6:30 PM  UNLV              Kansas            no edge                               no edge               
+7:00 PM  Seattle           Cal Baptist       no edge                               no edge               
+7:00 PM  UC Irvine         Stanford          no edge                               no edge               
+8:00 PM  Montana St.       Gonzaga           no edge                               no edge               
+8:59 PM  West Virginia     Auburn            no edge                               no edge               
+         Illinois          Duke              no edge                               no edge               
+         Saint Peter's     UMass Lowell      no edge                               no edge               
+         Sacred Heart      Providence        no edge                               no edge               
