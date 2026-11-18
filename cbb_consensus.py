@@ -18,6 +18,7 @@ models disagree most with the market (or with each other) come first.
 """
 from __future__ import annotations
 
+import time
 import argparse
 import csv
 import datetime as dt
@@ -1661,6 +1662,11 @@ def main(argv=None):
                 if not cached.exists():
                     print(f"  {cfg['name']:<14} no cached page"); continue
                 page = cached.read_text(encoding="utf-8")
+            elif s == "torvik" and cached.exists() and time.time() - cached.stat().st_mtime < 3 * 3600 \
+                    and parse_site(s, cached.read_text(encoding="utf-8"), tm, day):
+                # fetched minutes ago by a separate job (GitHub runs try Torvik from several machines)
+                page = cached.read_text(encoding="utf-8")
+                print(f"  {cfg['name']:<14} using the page fetched earlier in this run")
             else:
                 page = fetch(s, url, cfg["wait_for"], day)
         except Exception as e:  # one site failing shouldn't kill the run
