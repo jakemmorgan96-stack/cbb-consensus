@@ -11,6 +11,8 @@ import cbb_consensus as c
 day = dt.date.today()
 cfg = c.SITES["torvik"]
 c.CACHE.mkdir(exist_ok=True)
+if (c.HERE / "manual" / f"torvik_{day:%Y%m%d}.csv").exists():
+    sys.exit("Torvik typed in by hand for today - skipping download")  # exits 1: nothing to upload
 try:
     page = c.fetch("torvik", cfg["url"].format(ymd=f"{day:%Y%m%d}", iso=day.isoformat()), cfg["wait_for"], day)
 except Exception as e:
@@ -18,4 +20,5 @@ except Exception as e:
 tm = c.TeamMatcher(c.HERE / "team_aliases.csv")
 n = len(c.parse_site("torvik", page, tm, day))
 print(f"Torvik: {n} games")
-sys.exit(0 if n else 1)
+if not n:
+    sys.exit(1)

@@ -566,6 +566,28 @@ def parse_sasser(page_html: str, tm: TeamMatcher) -> list[Proj]:
     return out
 
 
+def load_manual(site: str, day: dt.date, tm: "TeamMatcher") -> list | None:
+    """manual/<site>_YYYYMMDD.csv, typed in from a screenshot when the site blocks the
+    automatic download. Columns: away,home,neutral,fav,line,fav_pts,dog_pts."""
+    path = HERE / "manual" / f"{site}_{day:%Y%m%d}.csv"
+    if not path.exists():
+        return None
+    out = []
+    with open(path, newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            away, home, fav = _team(r["away"], tm), _team(r["home"], tm), _team(r["fav"], tm)
+            if not (away and home and fav) or away == home or fav not in (away, home):
+                print(f"  manual {site}: couldn't match {r['away']} / {r['home']} - skipped")
+                continue
+            line = float(r["line"])
+            total = float(r["fav_pts"]) + float(r["dog_pts"])
+            fp, dp = (total + line) / 2, (total - line) / 2      # keep the line's decimal
+            ap, hp = (fp, dp) if fav == away else (dp, fp)
+            neutral = r.get("neutral", "0").strip() in ("1", "true", "yes")
+            out.append(Proj(site, (away, home), (round(ap, 2), round(hp, 2)), None if neutral else home, "manual"))
+    return out
+
+
 def parse_site(site: str, page: str, tm: TeamMatcher, day: dt.date) -> list[Proj]:
     if site == "sasser":
         return parse_sasser(page, tm)
@@ -1657,6 +1679,11 @@ def main(argv=None):
                 continue
         url = cfg["url"].format(ymd=f"{day:%Y%m%d}", iso=day.isoformat())
         cached = cache_path(s, day)
+        man = load_manual(s, day, tm)
+        if man:
+            print(f"  {cfg['name']:<14} {len(man):>4} games (from manual/{s}_{day:%Y%m%d}.csv)")
+            projs.extend(man)
+            continue
         try:
             if args.from_cache:
                 if not cached.exists():
