@@ -56,8 +56,8 @@ Results log: 563 games graded (2026-11-05 to 2026-11-17)
       Dunkel loader: 3 clicks, 10 cards, last Wednesday: 18 November | 16:00, stopped: nothing new loaded
   Dunkel           10 games
   Sasser           55 games
-  Market (ESPN/DK)   59 games
-  Kept 2 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)   58 games
+  Kept 3 lines from today's earlier run that are no longer posted (games started/finished)
 
 61 games -> cbb_consensus_20261118.csv, cbb_consensus_20261118.html
 
@@ -66,7 +66,6 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-1:48 PM  Houston           Florida           no edge                               no edge               
 3:30 PM  Tennessee Tech    UNC Asheville     no edge                               no edge               
 3:30 PM  IU Indy           Penn St.          no edge                               no edge               
 3:30 PM  Detroit Mercy     Eastern Michigan  no edge                               no edge               
@@ -74,14 +73,14 @@ Start    Away              Home              Spread pick                   Flag 
 3:30 PM  Navy              Georgetown        no edge                               no edge               
 3:30 PM  Samford           USC Upstate       no edge                               no edge               
 4:00 PM  Siena             St. John's        no edge                               no edge               
-4:00 PM  Howard            Duquesne          no edge                               no edge               
 4:00 PM  Elon              South Carolina    no edge                               no edge               
 4:00 PM  Binghamton        Lafayette         no edge                               no edge               
+4:00 PM  Howard            Duquesne          no edge                               no edge               
+4:00 PM  Vermont           Yale              no edge                               no edge               
 4:00 PM  Morgan St.        North Carolina A& no edge                               no edge               
 4:00 PM  North Carolina Ce George Mason      no edge                               no edge               
-4:00 PM  Morehead St.      Ohio              no edge                               no edge               
 4:00 PM  Chicago St.       Illinois Chicago  no edge                               no edge               
-4:00 PM  Vermont           Yale              no edge                               no edge               
+4:00 PM  Morehead St.      Ohio              no edge                               no edge               
 4:00 PM  Boston University Merrimack         no edge                               no edge               
 4:00 PM  Florida Gulf Coas Florida Atlantic  no edge                               no edge               
 4:00 PM  Furman            Radford           no edge                               no edge               
@@ -96,3 +95,4 @@ Start    Away              Home              Spread pick                   Flag 
 4:30 PM  Kansas            West Virginia     no edge                               no edge               
 4:30 PM  Youngstown St.    Cincinnati        no edge                               no edge               
 4:30 PM  New Orleans       Texas Tech        no edge                               no edge               
+4:30 PM  Northern Illinois Marquette         no edge                               no edge               
