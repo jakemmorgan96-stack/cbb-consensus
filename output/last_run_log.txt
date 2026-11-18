@@ -1,4 +1,3 @@
-  Graded 55 finished games.
 Results log: 563 games graded (2026-11-05 to 2026-11-17)
   Need 52.4% to profit at -110. CLV = points the line moved your way before tip-off.
 
@@ -56,7 +55,7 @@ Results log: 563 games graded (2026-11-05 to 2026-11-17)
   Massey           62 games
   Talisman Red     61 games
       Dunkel loader: 3 clicks, 10 cards, last Wednesday: 18 November | 15:30, stopped: nothing new loaded
-  Dunkel            6 games
+  Dunkel            8 games
   Sasser           55 games
   Market (ESPN/DK)   61 games
 
@@ -80,15 +79,15 @@ Start    Away              Home              Spread pick                   Flag 
 4:00 PM  Binghamton        Lafayette         no edge                               no edge               
 4:00 PM  Elon              South Carolina    no edge                               no edge               
 4:00 PM  Howard            Duquesne          no edge                               no edge               
-4:00 PM  North Carolina Ce George Mason      no edge                               no edge               
 4:00 PM  Vermont           Yale              no edge                               no edge               
+4:00 PM  North Carolina Ce George Mason      no edge                               no edge               
 4:00 PM  Morgan St.        North Carolina A& no edge                               no edge               
 4:00 PM  Furman            Radford           no edge                               no edge               
 4:00 PM  Florida Gulf Coas Florida Atlantic  no edge                               no edge               
 4:00 PM  Morehead St.      Ohio              no edge                               no edge               
-4:00 PM  Wofford           Charleston Southe no edge                               no edge               
 4:00 PM  Chicago St.       Illinois Chicago  no edge                               no edge               
 4:00 PM  Boston University Merrimack         no edge                               no edge               
+4:00 PM  Wofford           Charleston Southe no edge                               no edge               
 4:00 PM  VMI               Longwood          no edge                               no edge               
 4:00 PM  Mercer            Presbyterian      no edge                               no edge               
 4:00 PM  UNC Wilmington    LIU               no edge                               no edge               
