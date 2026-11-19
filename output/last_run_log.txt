@@ -56,8 +56,8 @@ Results log: 563 games graded (2026-11-05 to 2026-11-17)
       Dunkel loader: 3 clicks, 10 cards, last Wednesday: 18 November | 16:00, stopped: nothing new loaded
   Dunkel           10 games
   Sasser           55 games
-  Market (ESPN/DK)   53 games
-  Kept 8 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)    6 games
+  Kept 56 lines from today's earlier run that are no longer posted (games started/finished)
 
 61 games -> cbb_consensus_20261118.csv, cbb_consensus_20261118.html
 
@@ -66,33 +66,33 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-4:00 PM  Siena             St. John's        no edge                               no edge               
-4:00 PM  Elon              South Carolina    no edge                               no edge               
-4:00 PM  Binghamton        Lafayette         no edge                               no edge               
-4:00 PM  Howard            Duquesne          no edge                               no edge               
-4:00 PM  Vermont           Yale              no edge                               no edge               
-4:00 PM  North Carolina Ce George Mason      no edge                               no edge               
-4:00 PM  Chicago St.       Illinois Chicago  no edge                               no edge               
-4:00 PM  Morgan St.        North Carolina A& no edge                               no edge               
-4:00 PM  Morehead St.      Ohio              no edge                               no edge               
-4:00 PM  Boston University Merrimack         no edge                               no edge               
-4:00 PM  Florida Gulf Coas Florida Atlantic  no edge                               no edge               
-4:00 PM  Furman            Radford           no edge                               no edge               
-4:00 PM  Coppin St.        La Salle          no edge                               no edge               
-4:00 PM  VMI               Longwood          no edge                               no edge               
-4:00 PM  Brown             Holy Cross        no edge                               no edge               
-4:00 PM  UNC Wilmington    LIU               no edge                               no edge               
-4:00 PM  Wofford           Charleston Southe no edge                               no edge               
-4:00 PM  NJIT              Fairleigh Dickins no edge                               no edge               
-4:00 PM  Mercer            Presbyterian      no edge                               no edge               
-4:00 PM  James Madison     Towson            no edge                               no edge               
-4:30 PM  Kansas            West Virginia     no edge                               no edge               
-4:30 PM  Youngstown St.    Cincinnati        no edge                               no edge               
-4:30 PM  New Orleans       Texas Tech        no edge                               no edge               
-4:30 PM  Northern Illinois Marquette         no edge                               no edge               
-5:00 PM  Purdue Fort Wayne Bradley           no edge                               no edge               
-5:00 PM  Cornell           Syracuse          no edge                               no edge               
-5:00 PM  UNC Greensboro    Gardner Webb      no edge                               no edge               
-5:00 PM  New Hampshire     Stonehill         no edge                               no edge               
-5:00 PM  Arkansas Pine Blu Arkansas St.      no edge                               no edge               
-5:00 PM  Campbell          Oklahoma          no edge                               no edge               
+7:00 PM  Washington St.    Hawaii            no edge                               no edge               
+7:00 PM  Texas Southern    San Diego St.     no edge                               no edge               
+7:00 PM  UNLV              Auburn            no edge                               no edge               
+7:00 PM  Louisiana         San Francisco     no edge                               no edge               
+7:00 PM  Idaho             Nevada            no edge                               no edge               
+7:30 PM  Cal St. Fullerton UCLA              no edge                               no edge               
+         Siena             St. John's        no edge                               no edge               
+         Tennessee Tech    UNC Asheville     no edge                               no edge               
+         Purdue Fort Wayne Bradley           no edge                               no edge               
+         Weber St.         Utah St.          no edge                               no edge               
+         West Virginia     Kansas            no edge                               no edge               
+         Cornell           Syracuse          no edge                               no edge               
+         Elon              South Carolina    no edge                               no edge               
+         UNC Greensboro    Gardner Webb      no edge                               no edge               
+         Binghamton        Lafayette         no edge                               no edge               
+         Oakland           Arizona St.       no edge                               no edge               
+         New Hampshire     Stonehill         no edge                               no edge               
+         Howard            Duquesne          no edge                               no edge               
+         IU Indy           Penn St.          no edge                               no edge               
+         Vermont           Yale              no edge                               no edge               
+         North Carolina Ce George Mason      no edge                               no edge               
+         Arkansas Pine Blu Arkansas St.      no edge                               no edge               
+         UC Riverside      San Diego         no edge                               no edge               
+         Youngstown St.    Cincinnati        no edge                               no edge               
+         Campbell          Oklahoma          no edge                               no edge               
+         Detroit Mercy     Eastern Michigan  no edge                               no edge               
+         Chicago St.       Illinois Chicago  no edge                               no edge               
+         Morgan St.        North Carolina A& no edge                               no edge               
+         Chattanooga       Winthrop          no edge                               no edge               
+         New Orleans       Texas Tech        no edge                               no edge               
