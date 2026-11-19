@@ -67,9 +67,9 @@ def main():
     <tr><td>Market</td><td>{e(r.get('Market spread')) or '–'}</td><td>{e(r.get('Market total')) or '–'}</td></tr>
     <tr><td>Open</td><td>{e(r.get('Open spread')) or '–'}</td><td>{e(r.get('Open total')) or '–'}</td></tr>
     <tr><td>Model avg</td><td>{e(r.get('Model avg spread')) or '–'}</td><td>{e(r.get('Model avg total')) or '–'}</td></tr>
-    <tr><td>Avg lean</td><td class="{'big' if edge >= 3 else ''}">{e(r.get('Avg spread lean')) or '–'} <small>({e(r.get('Avg spread edge')) or 0})</small></td>
-        <td>{e(r.get('Avg total lean')) or '–'} <small>({e(r.get('Avg total edge')) or 0})</small></td></tr>
     <tr><td>Torvik lean</td><td class="{'big' if tedge >= 3 else ''}" colspan="2">{e(r.get('Torvik lean')) or '–'} <small>({e(r.get('Torvik edge')) or 0})</small></td></tr>
+    <tr><td>Avg lean <small>(weaker)</small></td><td class="{'big' if edge >= 3 else ''}">{e(r.get('Avg spread lean')) or '–'} <small>({e(r.get('Avg spread edge')) or 0})</small></td>
+        <td>{e(r.get('Avg total lean')) or '–'} <small>({e(r.get('Avg total edge')) or 0})</small></td></tr>
   </table>
   <div class="models">{mline}</div>
 </div>""")
