@@ -56,8 +56,8 @@ Results log: 624 games graded (2026-11-05 to 2026-11-18)
       Dunkel loader: 3 clicks, 10 cards, last Thursday: 19 November | 16:00, stopped: nothing new loaded
   Dunkel           10 games
   Sasser           21 games
-  Market (ESPN/DK)   28 games
-  Kept 1 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)   27 games
+  Kept 2 lines from today's earlier run that are no longer posted (games started/finished)
 
 29 games -> cbb_consensus_20261119.csv, cbb_consensus_20261119.html
 
@@ -66,12 +66,11 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-2:00 PM  Notre Dame        Auburn            no edge                               no edge               
 3:00 PM  N.C. State        Murray St.        no edge                               no edge               
 4:00 PM  Maine             Quinnipiac        no edge                               no edge               
 4:00 PM  Robert Morris     Toledo            no edge                               no edge               
-4:00 PM  Buffalo           St. Bonaventure   no edge                               no edge               
 4:00 PM  Montana St.       High Point        no edge                               no edge               
+4:00 PM  Buffalo           St. Bonaventure   no edge                               no edge               
 4:00 PM  Little Rock       Jacksonville      no edge                               no edge               
 4:00 PM  Northeastern      Butler            no edge                               no edge               
 4:00 PM  UMBC              Ohio St.          no edge                               no edge               
@@ -95,3 +94,4 @@ Start    Away              Home              Spread pick                   Flag 
 8:00 PM  Tarleton St.      USC               no edge                               no edge               
 8:00 PM  Houston           Kansas            no edge                               no edge               
          Florida           West Virginia     no edge                               no edge               
+         Notre Dame        Auburn            no edge                               no edge               
