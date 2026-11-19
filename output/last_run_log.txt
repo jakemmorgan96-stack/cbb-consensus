@@ -72,22 +72,22 @@ Start    Away              Home              Spread pick                   Flag 
 4:00 PM  Robert Morris     Toledo            no edge                               no edge               
 4:00 PM  Buffalo           St. Bonaventure   no edge                               no edge               
 4:00 PM  Montana St.       High Point        no edge                               no edge               
-4:00 PM  UMBC              Ohio St.          no edge                               no edge               
 4:00 PM  Little Rock       Jacksonville      no edge                               no edge               
 4:00 PM  Northeastern      Butler            no edge                               no edge               
+4:00 PM  UMBC              Ohio St.          no edge                               no edge               
 4:30 PM  Charleston        Drake             no edge                               no edge               
 4:30 PM  Tulane            Louisiana Tech    no edge                               no edge               
 5:00 PM  Stetson           Louisville        no edge                               no edge               
+5:00 PM  Texas A&M         TCU               no edge                               no edge               
 5:00 PM  Southern Utah     Texas             no edge                               no edge               
 5:00 PM  Southeast Missour St. Thomas        no edge                               no edge               
-5:00 PM  Texas A&M         TCU               no edge                               no edge               
 5:00 PM  Georgia Southern  Houston Christian no edge                               no edge               
 5:30 PM  Seton Hall        Wisconsin         no edge                               no edge               
 5:30 PM  Rutgers           UNLV              no edge                               no edge               
 6:00 PM  UTEP              New Mexico St.    no edge                               no edge               
 6:00 PM  Oregon St.        Oregon            no edge                               no edge               
-6:00 PM  Utah Tech         Washington        no edge                               no edge               
 6:00 PM  UC Santa Barbara  Pepperdine        no edge                               no edge               
+6:00 PM  Utah Tech         Washington        no edge                               no edge               
 6:00 PM  Southern Miss     Grambling St.     no edge                               no edge               
 7:00 PM  East Texas A&M    California        no edge                               no edge               
 7:00 PM  Sacramento St.    Stanford          no edge                               no edge               
