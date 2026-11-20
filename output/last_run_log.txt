@@ -56,8 +56,8 @@ Results log: 624 games graded (2026-11-05 to 2026-11-18)
       Dunkel loader: 3 clicks, 10 cards, last Thursday: 19 November | 16:00, stopped: nothing new loaded
   Dunkel           10 games
   Sasser           21 games
-  Market (ESPN/DK)   19 games
-  Kept 10 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)    5 games
+  Kept 24 lines from today's earlier run that are no longer posted (games started/finished)
 
 29 games -> cbb_consensus_20261119.csv, cbb_consensus_20261119.html
 
@@ -66,32 +66,32 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-4:30 PM  Charleston        Drake             no edge                               no edge               
-4:30 PM  Tulane            Louisiana Tech    no edge                               no edge               
-5:00 PM  Stetson           Louisville        no edge                               no edge               
-5:00 PM  Texas A&M         TCU               no edge                               no edge               
-5:00 PM  Southern Utah     Texas             no edge                               no edge               
-5:00 PM  Southeast Missour St. Thomas        no edge                               no edge               
-5:00 PM  Georgia Southern  Houston Christian no edge                               no edge               
-5:30 PM  Seton Hall        Wisconsin         no edge                               no edge               
-5:30 PM  Rutgers           UNLV              no edge                               no edge               
-6:00 PM  UTEP              New Mexico St.    no edge                               no edge               
-6:00 PM  Oregon St.        Oregon            no edge                               no edge               
-6:00 PM  UC Santa Barbara  Pepperdine        no edge                               no edge               
-6:00 PM  Utah Tech         Washington        no edge                               no edge               
-6:00 PM  Southern Miss     Grambling St.     no edge                               no edge               
 7:00 PM  East Texas A&M    California        no edge                               no edge               
 7:00 PM  Sacramento St.    Stanford          no edge                               no edge               
 7:30 PM  VCU               Santa Clara       no edge                               no edge               
-8:00 PM  Tarleton St.      USC               no edge                               no edge               
 8:00 PM  Houston           Kansas            no edge                               no edge               
+8:00 PM  Tarleton St.      USC               no edge                               no edge               
+         Stetson           Louisville        no edge                               no edge               
          Maine             Quinnipiac        no edge                               no edge               
          Murray St.        N.C. State        no edge                               no edge               
          Robert Morris     Toledo            no edge                               no edge               
+         Texas A&M         TCU               no edge                               no edge               
+         Southern Utah     Texas             no edge                               no edge               
+         Seton Hall        Wisconsin         no edge                               no edge               
+         Charleston        Drake             no edge                               no edge               
+         UTEP              New Mexico St.    no edge                               no edge               
+         Southeast Missour St. Thomas        no edge                               no edge               
+         Oregon            Oregon St.        no edge                               no edge               
          Montana St.       High Point        no edge                               no edge               
          Florida           West Virginia     no edge                               no edge               
          Notre Dame        Auburn            no edge                               no edge               
          Buffalo           St. Bonaventure   no edge                               no edge               
+         UC Santa Barbara  Pepperdine        no edge                               no edge               
+         Rutgers           UNLV              no edge                               no edge               
+         Utah Tech         Washington        no edge                               no edge               
          Little Rock       Jacksonville      no edge                               no edge               
          Northeastern      Butler            no edge                               no edge               
+         Southern Miss     Grambling St.     no edge                               no edge               
          UMBC              Ohio St.          no edge                               no edge               
+         Tulane            Louisiana Tech    no edge                               no edge               
+         Georgia Southern  Houston Christian no edge                               no edge               
