@@ -1,97 +1,102 @@
-Results log: 624 games graded (2026-11-05 to 2026-11-18)
+  Graded 29 finished games.
+Results log: 653 games graded (2026-11-05 to 2026-11-19)
   Need 52.4% to profit at -110. CLV = points the line moved your way before tip-off.
 
   Edge size (pts)       Spread record                       Total record
-  sp 0-2 / tot 0-3      162-145-0 (53%), avg CLV +0.1       156-155-0 (50%), avg CLV +0.0
-  sp 2-4 / tot 3-5      80-97-1 (45%), avg CLV +0.4         69-75-0 (48%), avg CLV +0.0
-  sp 4-6 / tot 5-8      39-40-0 (49%), avg CLV +0.3         49-55-0 (47%), avg CLV +0.2
-  sp 6-+ / tot 8-+      22-28-0 (44%), avg CLV +0.7         32-29-0 (52%), avg CLV +0.1
-  Spread edge 3+ with models agreeing (SD<=3): 59-61-0 (49%), avg CLV +0.5
+  sp 0-2 / tot 0-3      169-156-0 (52%), avg CLV +0.1       164-161-0 (50%), avg CLV +0.0
+  sp 2-4 / tot 3-5      83-98-1 (46%), avg CLV +0.4         77-78-0 (50%), avg CLV +0.1
+  sp 4-6 / tot 5-8      41-42-0 (49%), avg CLV +0.3         51-57-0 (47%), avg CLV +0.2
+  sp 6-+ / tot 8-+      23-29-0 (44%), avg CLV +0.7         32-29-0 (52%), avg CLV +0.1
+  Spread edge 3+ with models agreeing (SD<=3): 61-62-0 (50%), avg CLV +0.5
 
   Betting record of each model's own side when it differs from the market by 3+ pts (W-L, avg CLV):
-    Bart Torvik    spread 114-110 (51%) CLV +0.44    total 146-144 (50%) CLV +0.29
-    Haslametrics   spread 107-122 (47%) CLV +0.32    total 188-190 (50%) CLV -0.15
-    Massey         spread 158-165 (49%) CLV +0.25    total 180-176 (51%) CLV +0.07
-    Talisman Red   spread 159-197 (45%) CLV +0.23    total 214-222 (49%) CLV +0.28
-    Dunkel         spread 182-207 (47%) CLV -0.01    total 195-200 (49%) CLV -0.10
-    Sasser         spread 47-44 (52%) CLV +0.04      total 34-30 (53%) CLV -0.09
+    Bart Torvik    spread 119-116 (51%) CLV +0.42    total 156-149 (51%) CLV +0.29
+    Haslametrics   spread 112-126 (47%) CLV +0.31    total 199-195 (51%) CLV -0.14
+    Massey         spread 164-171 (49%) CLV +0.24    total 192-182 (51%) CLV +0.07
+    Talisman Red   spread 165-206 (44%) CLV +0.22    total 223-230 (49%) CLV +0.27
+    Dunkel         spread 190-209 (48%) CLV -0.01    total 199-205 (49%) CLV -0.09
+    Sasser         spread 50-49 (51%) CLV +0.05      total 38-32 (54%) CLV -0.11
 
   Background - average miss vs final margin / total (lower = more accurate, not the same as winning bets):
-    Bart Torvik    margin   9.7  total  13.7  (624 games)
-    Haslametrics   margin   9.8  total  14.1  (624 games)
-    Massey         margin  10.3  total  13.8  (579 games)
-    Talisman Red   margin  10.8  total  15.1  (624 games)
-    Dunkel         margin  11.4  total  14.1  (436 games)
-    Sasser         margin  11.8  total  13.7  (152 games)
-    Market close   margin   9.3  (624 games)
+    Bart Torvik    margin   9.7  total  13.5  (653 games)
+    Haslametrics   margin   9.8  total  13.9  (653 games)
+    Massey         margin  10.2  total  13.6  (608 games)
+    Talisman Red   margin  10.7  total  14.9  (653 games)
+    Dunkel         margin  11.3  total  14.1  (446 games)
+    Sasser         margin  11.4  total  13.3  (173 games)
+    Market close   margin   9.3  (653 games)
 
-  Same test against the OPENING line (624 games) - if these beat 52.4% but the morning-line records don't, the edge is in betting earlier:
-    Bart Torvik    spread 113-92 (55%)     total 128-128 (50%)
-    Haslametrics   spread 104-117 (47%)    total 172-182 (49%)
-    Massey         spread 155-169 (48%)    total 159-172 (48%)
-    Talisman Red   spread 164-194 (46%)    total 204-228 (47%)
-    Dunkel         spread 191-207 (48%)    total 192-210 (48%)
-    Sasser         spread 48-45 (52%)      total 33-23 (59%)
+  Same test against the OPENING line (653 games) - if these beat 52.4% but the morning-line records don't, the edge is in betting earlier:
+    Bart Torvik    spread 118-97 (55%)     total 134-131 (51%)
+    Haslametrics   spread 111-124 (47%)    total 183-187 (49%)
+    Massey         spread 164-177 (48%)    total 170-177 (49%)
+    Talisman Red   spread 170-203 (46%)    total 214-237 (47%)
+    Dunkel         spread 197-210 (48%)    total 196-215 (48%)
+    Sasser         spread 53-51 (51%)      total 40-25 (62%)
 
-  Torvik watch (forward test since 2026-11-14): vs opening line 22-23 (49%), vs morning line 20-25 (44%)  - needs ~150 bets before it means much
+  Torvik watch (forward test since 2026-11-14): vs opening line 24-26 (48%), vs morning line 22-28 (44%)  - needs ~150 bets before it means much
 
-  Trend - last 7 days (308 games) vs season (624), own side at 3+ pts / avg miss:
-    Bart Torvik    spread 56-47 (54%) CLV +0.54      (season 114-110 (51%))  miss 10.2 (season 9.7)
-    Haslametrics   spread 59-50 (54%) CLV +0.50      (season 107-122 (47%))  miss 10.3 (season 9.8)
-    Massey         spread 76-74 (51%) CLV +0.35      (season 158-165 (49%))  miss 10.6 (season 10.3)
-    Talisman Red   spread 79-91 (46%) CLV +0.31      (season 159-197 (45%))  miss 11.0 (season 10.8)
-    Dunkel         spread 86-96 (47%) CLV -0.03      (season 182-207 (47%))  miss 11.5 (season 11.4)
-    Sasser         spread 47-44 (52%) CLV +0.04      (season 47-44 (52%))  miss 11.8 (season 11.8)
-    Market line    miss 10.0
+  Trend - last 7 days (313 games) vs season (653), own side at 3+ pts / avg miss:
+    Bart Torvik    spread 58-51 (53%) CLV +0.50      (season 119-116 (51%))  miss 10.3 (season 9.7)
+    Haslametrics   spread 60-50 (55%) CLV +0.39      (season 112-126 (47%))  miss 10.4 (season 9.8)
+    Massey         spread 76-74 (51%) CLV +0.27      (season 164-171 (49%))  miss 10.6 (season 10.2)
+    Talisman Red   spread 78-94 (45%) CLV +0.22      (season 165-206 (44%))  miss 11.0 (season 10.7)
+    Dunkel         spread 85-86 (50%) CLV +0.05      (season 190-209 (48%))  miss 11.5 (season 11.3)
+    Sasser         spread 50-49 (51%) CLV +0.05      (season 50-49 (51%))  miss 11.4 (season 11.4)
+    Market line    miss 10.1
     (3-day swings in W-L are mostly luck; the avg-miss trend and CLV are the steadier signals)
 
-  Calibration (from 624 graded games, 2026-11-19), fitted on bet results:
+  Calibration (from 653 graded games, 2026-11-20), fitted on bet results:
     spread: no model beats a coin flip out-of-sample yet (market only)
-    total:  no model beats a coin flip out-of-sample yet (market only)
+    total:  no model beats a coin flip out-of-sample yet (market only); best test hit rate 55%
 
-  Bart Torvik      29 games (from manual/torvik_20261119.csv)
-  Haslametrics     29 games
-  Massey           29 games
-  Talisman Red     29 games
-      Dunkel loader: 3 clicks, 10 cards, last Thursday: 19 November | 16:00, stopped: nothing new loaded
-  Dunkel           10 games
-  Sasser           21 games
-  Market (ESPN/DK)    5 games
-  Kept 24 lines from today's earlier run that are no longer posted (games started/finished)
+  Bart Torvik      51 games
+  Haslametrics     51 games
+  Massey           51 games
+  Talisman Red     51 games
+      Dunkel loader: 3 clicks, 10 cards, last Thursday: 19 November | 20:00, stopped: nothing new loaded
+      Dunkel loader: 3 clicks, 10 cards, last Thursday: 19 November | 20:00, stopped: nothing new loaded
+      Dunkel loader: 3 clicks, 10 cards, last Thursday: 19 November | 20:00, stopped: nothing new loaded
+      Dunkel loader: 3 clicks, 10 cards, last Thursday: 19 November | 20:00, stopped: nothing new loaded
+  Dunkel            0 games
+      (8 KB page) HOME PICKS RESULTS RANKINGS NEWS ABOUT US FAQ CONTACT NCAA PICKS & PREDICTIONS EXPERT COLLEGE BASKETBALL BETTING PREDICTIONS BET ON MARCH MADNESS View the best NCAA Basketball picks for free, as predicted by The Dunkel Index, widely considered the best in the business. Date ALL Sport BASKETBALL Leag
+  Sasser         not posted yet (usually around midday CT) - re-run this afternoon to add it
+  Market (ESPN/DK)   51 games
 
-29 games -> cbb_consensus_20261119.csv, cbb_consensus_20261119.html
+51 games -> cbb_consensus_20261120.csv, cbb_consensus_20261120.html
 
 Blended model = market only right now (no model's disagreement with the market has predicted bet
 results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-7:00 PM  East Texas A&M    California        no edge                               no edge               
-7:00 PM  Sacramento St.    Stanford          no edge                               no edge               
-7:30 PM  VCU               Santa Clara       no edge                               no edge               
-8:00 PM  Houston           Kansas            no edge                               no edge               
-8:00 PM  Tarleton St.      USC               no edge                               no edge               
-         Stetson           Louisville        no edge                               no edge               
-         Maine             Quinnipiac        no edge                               no edge               
-         Murray St.        N.C. State        no edge                               no edge               
-         Robert Morris     Toledo            no edge                               no edge               
-         Texas A&M         TCU               no edge                               no edge               
-         Southern Utah     Texas             no edge                               no edge               
-         Seton Hall        Wisconsin         no edge                               no edge               
-         Charleston        Drake             no edge                               no edge               
-         UTEP              New Mexico St.    no edge                               no edge               
-         Southeast Missour St. Thomas        no edge                               no edge               
-         Oregon            Oregon St.        no edge                               no edge               
-         Montana St.       High Point        no edge                               no edge               
-         Florida           West Virginia     no edge                               no edge               
-         Notre Dame        Auburn            no edge                               no edge               
-         Buffalo           St. Bonaventure   no edge                               no edge               
-         UC Santa Barbara  Pepperdine        no edge                               no edge               
-         Rutgers           UNLV              no edge                               no edge               
-         Utah Tech         Washington        no edge                               no edge               
-         Little Rock       Jacksonville      no edge                               no edge               
-         Northeastern      Butler            no edge                               no edge               
-         Southern Miss     Grambling St.     no edge                               no edge               
-         UMBC              Ohio St.          no edge                               no edge               
-         Tulane            Louisiana Tech    no edge                               no edge               
-         Georgia Southern  Houston Christian no edge                               no edge               
+9:00 AM  Green Bay         Florida St.       no edge                               no edge               
+9:30 AM  Oklahoma St.      Minnesota         no edge                               no edge               
+9:30 AM  Temple            Middle Tennessee  no edge                               no edge               
+11:00 AM UAB               George Washington no edge                               no edge               
+12:00 PM Northwestern      Virginia Tech     no edge                               no edge               
+12:00 PM Indiana St.       Stephen F. Austin no edge                               no edge               
+12:00 PM Western Illinois  Albany            no edge                               no edge               
+1:00 PM  South Dakota St.  Idaho St.         no edge                               no edge               
+1:30 PM  Rhode Island      Liberty           no edge                               no edge               
+2:00 PM  Manhattan         Miami FL          no edge                               no edge               
+2:30 PM  Tennessee Martin  Southern Illinois no edge                               no edge               
+2:30 PM  Dayton            Utah              no edge                               no edge               
+2:30 PM  Mercyhurst        Canisius          no edge                               no edge               
+3:00 PM  Delaware          Cal St. Northridg no edge                               no edge               
+3:30 PM  North Texas       Appalachian St.   no edge                               no edge               
+4:00 PM  Bellarmine        Eastern Kentucky  no edge                               no edge               
+4:00 PM  Georgia St.       Jacksonville St.  no edge                               no edge               
+4:00 PM  Oakland           Purdue            no edge                               no edge               
+4:00 PM  Wagner            Maryland          no edge                               no edge               
+4:00 PM  Wisconsin         Murray St.        no edge                               no edge               
+4:00 PM  Coastal Carolina  Tennessee         no edge                               no edge               
+4:00 PM  Kansas City       Iona              no edge                               no edge               
+4:00 PM  Richmond          Western Kentucky  no edge                               no edge               
+4:00 PM  Loyola MD         Virginia          no edge                               no edge               
+4:00 PM  South Carolina St The Citadel       no edge                               no edge               
+4:00 PM  Southeastern Loui Kennesaw St.      no edge                               no edge               
+4:00 PM  Central Michigan  Pittsburgh        no edge                               no edge               
+4:00 PM  Harvard           Holy Cross        no edge                               no edge               
+4:00 PM  Niagara           Delaware St.      no edge                               no edge               
+4:00 PM  Saint Joseph's    Drexel            no edge                               no edge               
