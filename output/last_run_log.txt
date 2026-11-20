@@ -57,8 +57,8 @@ Results log: 653 games graded (2026-11-05 to 2026-11-19)
       Dunkel loader: 3 clicks, 10 cards, last Friday: 20 November | 14:00, stopped: nothing new loaded
   Dunkel           10 games
   Sasser           36 games
-  Market (ESPN/DK)   42 games
-  Kept 9 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)   41 games
+  Kept 10 lines from today's earlier run that are no longer posted (games started/finished)
 
 51 games -> cbb_consensus_20261120.csv, cbb_consensus_20261120.html
 
@@ -67,7 +67,6 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-2:00 PM  Manhattan         Miami FL          no edge                               no edge               
 2:30 PM  Tennessee Martin  Southern Illinois no edge                               no edge               
 2:30 PM  Dayton            Utah              no edge                               no edge               
 2:30 PM  Mercyhurst        Canisius          no edge                               no edge               
@@ -97,3 +96,4 @@ Start    Away              Home              Spread pick                   Flag 
 5:00 PM  Georgia           Georgia Tech      no edge                               no edge               
 5:00 PM  Campbell          Kansas St.        no edge                               no edge               
 5:00 PM  UCF               Vanderbilt        no edge                               no edge               
+5:00 PM  Mississippi Valle Arkansas          no edge                               no edge               
