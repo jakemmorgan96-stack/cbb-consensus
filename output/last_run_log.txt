@@ -49,16 +49,16 @@ Results log: 653 games graded (2026-11-05 to 2026-11-19)
     spread: no model beats a coin flip out-of-sample yet (market only)
     total:  no model beats a coin flip out-of-sample yet (market only); best test hit rate 55%
 
-  Bart Torvik       0 games
-      (0 KB page)  ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provid
+  Bart Torvik    using the page fetched earlier in this run
+  Bart Torvik      51 games
   Haslametrics     51 games
   Massey           51 games
   Talisman Red     51 games
       Dunkel loader: 3 clicks, 10 cards, last Friday: 20 November | 14:00, stopped: nothing new loaded
   Dunkel           10 games
   Sasser           36 games
-  Market (ESPN/DK)   36 games
-  Kept 66 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)    2 games
+  Kept 49 lines from today's earlier run that are no longer posted (games started/finished)
 
 51 games -> cbb_consensus_20261120.csv, cbb_consensus_20261120.html
 
@@ -67,33 +67,33 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-4:00 PM  Bellarmine        Eastern Kentucky  no edge                               no edge               
-4:00 PM  Oakland           Purdue            no edge                               no edge               
-4:00 PM  Kansas City       Iona              no edge                               no edge               
-4:00 PM  South Carolina St The Citadel       no edge                               no edge               
-4:00 PM  Wisconsin         Murray St.        no edge                               no edge               
-4:00 PM  Georgia St.       Jacksonville St.  no edge                               no edge               
-4:00 PM  Coastal Carolina  Tennessee         no edge                               no edge               
-4:00 PM  Loyola MD         Virginia          no edge                               no edge               
-4:00 PM  Richmond          Western Kentucky  no edge                               no edge               
-4:00 PM  Wagner            Maryland          no edge                               no edge               
-4:00 PM  Southeastern Loui Kennesaw St.      no edge                               no edge               
-4:00 PM  Central Michigan  Pittsburgh        no edge                               no edge               
-4:00 PM  Harvard           Holy Cross        no edge                               no edge               
-4:00 PM  Western Michigan  Mount St. Mary's  no edge                               no edge               
-4:00 PM  Monmouth          Princeton         no edge                               no edge               
-4:00 PM  Saint Joseph's    Drexel            no edge                               no edge               
-4:00 PM  Niagara           Delaware St.      no edge                               no edge               
-4:30 PM  UT Arlington      Northwestern St.  no edge                               no edge               
-4:30 PM  Tulsa             Mississippi St.   no edge                               no edge               
-4:30 PM  Iowa              Xavier            no edge                               no edge               
-5:00 PM  South Alabama     SMU               no edge                               no edge               
-5:00 PM  Georgia           Georgia Tech      no edge                               no edge               
-5:00 PM  Campbell          Kansas St.        no edge                               no edge               
-5:00 PM  UCF               Vanderbilt        no edge                               no edge               
-5:00 PM  Mississippi Valle Arkansas          no edge                               no edge               
-5:00 PM  Kentucky          Indiana           no edge                               no edge               
-5:00 PM  Utah Valley       East Carolina     no edge                               no edge               
-5:00 PM  Lipscomb          Alabama A&M       no edge                               no edge               
-5:00 PM  Le Moyne          Missouri          no edge                               no edge               
-6:00 PM  Eastern Illinois  Illinois          no edge                               no edge               
+7:00 PM  Alabama St.       Fresno St.        no edge                               no edge               
+8:00 PM  Saint Louis       Saint Mary's      no edge                               no edge               
+         Eastern Illinois  Illinois          no edge                               no edge               
+         Bellarmine        Eastern Kentucky  no edge                               no edge               
+         Southern Illinois Tennessee Martin  no edge                               no edge               
+         Sam Houston St.   Boise St.         no edge                               no edge               
+         South Alabama     SMU               no edge                               no edge               
+         Virginia Tech     Northwestern      no edge                               no edge               
+         Oakland           Purdue            no edge                               no edge               
+         UT Arlington      Northwestern St.  no edge                               no edge               
+         Dayton            Utah              no edge                               no edge               
+         George Washington UAB               no edge                               no edge               
+         Mississippi St.   Tulsa             no edge                               no edge               
+         Georgia           Georgia Tech      no edge                               no edge               
+         Kansas City       Iona              no edge                               no edge               
+         South Carolina St The Citadel       no edge                               no edge               
+         Murray St.        Wisconsin         no edge                               no edge               
+         Campbell          Kansas St.        no edge                               no edge               
+         Georgia St.       Jacksonville St.  no edge                               no edge               
+         Coastal Carolina  Tennessee         no edge                               no edge               
+         Loyola MD         Virginia          no edge                               no edge               
+         Indiana St.       Stephen F. Austin no edge                               no edge               
+         Western Illinois  Albany            no edge                               no edge               
+         Cal St. Bakersfie Idaho             no edge                               no edge               
+         UCF               Vanderbilt        no edge                               no edge               
+         N.C. State        Seton Hall        no edge                               no edge               
+         Richmond          Western Kentucky  no edge                               no edge               
+         Wagner            Maryland          no edge                               no edge               
+         Iowa              Xavier            no edge                               no edge               
+         Southeastern Loui Kennesaw St.      no edge                               no edge               
