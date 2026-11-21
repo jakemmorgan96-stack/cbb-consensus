@@ -1,4 +1,3 @@
-  Graded 51 finished games.
 Results log: 704 games graded (2026-11-05 to 2026-11-20)
   Need 52.4% to profit at -110. CLV = points the line moved your way before tip-off.
 
@@ -50,15 +49,16 @@ Results log: 704 games graded (2026-11-05 to 2026-11-20)
     spread: no model beats a coin flip out-of-sample yet (market only)
     total:  no model beats a coin flip out-of-sample yet (market only)
 
-  Bart Torvik    using the page fetched earlier in this run
-  Bart Torvik      52 games
+  Bart Torvik       0 games
+      (0 KB page)  ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provid
   Haslametrics     51 games
   Massey           51 games
   Talisman Red     52 games
       Dunkel loader: 3 clicks, 10 cards, last Saturday: 21 November | 11:00, stopped: nothing new loaded
   Dunkel            9 games
   Sasser           35 games
-  Market (ESPN/DK)   47 games
+  Market (ESPN/DK)   29 games
+  Kept 70 lines from today's earlier run that are no longer posted (games started/finished)
 
 52 games -> cbb_consensus_20261121.csv, cbb_consensus_20261121.html
 
@@ -67,24 +67,6 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-10:00 AM Kent St.          Cleveland St.     no edge                               no edge               
-10:00 AM Denver            Eastern Michigan  no edge                               no edge               
-10:00 AM Queens            LSU               no edge                               no edge               
-10:00 AM New Hampshire     New Haven         no edge                               no edge               
-10:30 AM Western Illinois  Mercyhurst        no edge                               no edge               
-11:00 AM Stony Brook       Saint Peter's     no edge                               no edge               
-11:00 AM Lafayette         Syracuse          no edge                               no edge               
-11:00 AM Western Carolina  Wake Forest       no edge                               no edge               
-11:00 AM Cornell           Morgan St.        no edge                               no edge               
-11:00 AM Northern Illinois Bowling Green     no edge                               no edge               
-11:00 AM New Mexico        Wichita St.       no edge                               no edge               
-11:00 AM Little Rock       North Florida     no edge                               no edge               
-11:00 AM Fordham           Portland          no edge                               no edge               
-11:00 AM Navy              Rider             no edge                               no edge               
-12:00 PM Drake             Missouri St.      no edge                               no edge               
-12:00 PM UT Rio Grande Val Austin Peay       no edge                               no edge               
-12:00 PM Middle Tennessee  Indiana St.       no edge                               no edge               
-12:00 PM St. Thomas        Milwaukee         no edge                               no edge               
 12:30 PM Army              Binghamton        no edge                               no edge               
 1:00 PM  Penn              La Salle          no edge                               no edge               
 1:00 PM  Albany            Canisius          no edge                               no edge               
@@ -97,3 +79,21 @@ Start    Away              Home              Spread pick                   Flag 
 2:00 PM  Northeastern      Stonehill         no edge                               no edge               
 2:00 PM  Winthrop          Wofford           no edge                               no edge               
 2:30 PM  Southern Illinois East Carolina     no edge                               no edge               
+3:00 PM  Coppin St.        Georgetown        no edge                               no edge               
+3:00 PM  UNC Wilmington    Norfolk St.       no edge                               no edge               
+3:00 PM  Maine             Massachusetts     no edge                               no edge               
+4:00 PM  Michigan          Villanova         no edge                               no edge               
+4:00 PM  Morehead St.      Elon              no edge                               no edge               
+4:00 PM  Cal Baptist       Loyola Marymount  no edge                               no edge               
+4:00 PM  Radford           Chattanooga       no edge                               no edge               
+4:00 PM  Brown             Vermont           no edge                               no edge               
+4:00 PM  Northern Arizona  Cal Poly          no edge                               no edge               
+4:00 PM  Gardner Webb      VMI               no edge                               no edge               
+4:00 PM  Charleston Southe Mercer            no edge                               no edge               
+4:30 PM  Presbyterian      Tennessee Tech    no edge                               no edge               
+5:00 PM  Troy              Valparaiso        no edge                               no edge               
+5:00 PM  Texas A&M Corpus  Oral Roberts      no edge                               no edge               
+5:30 PM  New Orleans       Texas Southern    no edge                               no edge               
+7:00 PM  Bradley           Pacific           no edge                               no edge               
+8:00 PM  Washington St.    Duke              no edge                               no edge               
+         Kent St.          Cleveland St.     no edge                               no edge               
