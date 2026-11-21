@@ -57,8 +57,8 @@ Results log: 704 games graded (2026-11-05 to 2026-11-20)
       Dunkel loader: 3 clicks, 10 cards, last Saturday: 21 November | 11:00, stopped: nothing new loaded
   Dunkel            9 games
   Sasser           35 games
-  Market (ESPN/DK)   29 games
-  Kept 70 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)   23 games
+  Kept 76 lines from today's earlier run that are no longer posted (games started/finished)
 
 52 games -> cbb_consensus_20261121.csv, cbb_consensus_20261121.html
 
@@ -67,12 +67,6 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-12:30 PM Army              Binghamton        no edge                               no edge               
-1:00 PM  Penn              La Salle          no edge                               no edge               
-1:00 PM  Albany            Canisius          no edge                               no edge               
-1:00 PM  Central Arkansas  Jacksonville      no edge                               no edge               
-1:00 PM  Longwood          East Tennessee St no edge                               no edge               
-1:00 PM  South Florida     George Mason      no edge                               no edge               
 1:30 PM  UC Irvine         San Diego         no edge                               no edge               
 2:00 PM  Air Force         UTSA              no edge                               no edge               
 2:00 PM  Southern Miss     Nicholls          no edge                               no edge               
@@ -97,3 +91,9 @@ Start    Away              Home              Spread pick                   Flag 
 7:00 PM  Bradley           Pacific           no edge                               no edge               
 8:00 PM  Washington St.    Duke              no edge                               no edge               
          Kent St.          Cleveland St.     no edge                               no edge               
+         Denver            Eastern Michigan  no edge                               no edge               
+         Stony Brook       Saint Peter's     no edge                               no edge               
+         Queens            LSU               no edge                               no edge               
+         Lafayette         Syracuse          no edge                               no edge               
+         Western Carolina  Wake Forest       no edge                               no edge               
+         Army              Binghamton        no edge                               no edge               
