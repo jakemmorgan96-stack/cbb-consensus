@@ -56,8 +56,8 @@ Results log: 751 games graded (2026-11-05 to 2026-11-21)
       Dunkel loader: 3 clicks, 10 cards, last Sunday: 22 November | 11:00, stopped: nothing new loaded
   Dunkel           10 games
   Sasser           14 games
-  Market (ESPN/DK)   17 games
-  Kept 21 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)    7 games
+  Kept 31 lines from today's earlier run that are no longer posted (games started/finished)
 
 38 games -> cbb_consensus_20261122.csv, cbb_consensus_20261122.html
 
@@ -66,16 +66,6 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-1:30 PM  Loyola Marymount  UC Irvine         no edge                               no edge               
-1:30 PM  Richmond          Liberty           no edge                               no edge               
-1:30 PM  IU Indy           Maryland Eastern  no edge                               no edge               
-2:00 PM  Rice              Lamar             no edge                               no edge               
-2:00 PM  Cal St. Fullerton Portland St.      no edge                               no edge               
-2:00 PM  UNC Asheville     Samford           no edge                               no edge               
-2:00 PM  NJIT              Boston College    no edge                               no edge               
-2:30 PM  Temple            Stephen F. Austin no edge                               no edge               
-3:00 PM  Southern Miss     Valparaiso        no edge                               no edge               
-3:00 PM  Utah              Minnesota         no edge                               no edge               
 4:00 PM  Rhode Island      UAB               no edge                               no edge               
 4:00 PM  Delaware          UCLA              no edge                               no edge               
 4:00 PM  Cal Baptist       Portland          no edge                               no edge               
@@ -86,13 +76,23 @@ Start    Away              Home              Spread pick                   Flag 
          West Florida      South Alabama     no edge                               no edge               
          Duquesne          Wyoming           no edge                               no edge               
          New Mexico St.    Robert Morris     no edge                               no edge               
+         Lamar             Rice              no edge                               no edge               
+         Loyola Marymount  UC Irvine         no edge                               no edge               
          South Dakota      Utah Tech         no edge                               no edge               
+         Southern Miss     Valparaiso        no edge                               no edge               
          George Washington Western Kentucky  no edge                               no edge               
          Oklahoma St.      Virginia Tech     no edge                               no edge               
+         Liberty           Richmond          no edge                               no edge               
+         IU Indy           Maryland Eastern  no edge                               no edge               
          Nicholls          Troy              no edge                               no edge               
          Miami OH          Illinois Chicago  no edge                               no edge               
+         Cal St. Fullerton Portland St.      no edge                               no edge               
          UMass Lowell      Cincinnati        no edge                               no edge               
          Dayton            Northwestern      no edge                               no edge               
+         UNC Asheville     Samford           no edge                               no edge               
          William & Mary    Youngstown St.    no edge                               no edge               
          Albany            Mercyhurst        no edge                               no edge               
+         Minnesota         Utah              no edge                               no edge               
          Butler            Nebraska          no edge                               no edge               
+         McNeese           Texas St.         no edge                               no edge               
+         Western Illinois  Canisius          no edge                               no edge               
