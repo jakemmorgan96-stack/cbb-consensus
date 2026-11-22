@@ -1,4 +1,3 @@
-  Graded 47 finished games.
 Results log: 751 games graded (2026-11-05 to 2026-11-21)
   Need 52.4% to profit at -110. CLV = points the line moved your way before tip-off.
 
@@ -50,14 +49,13 @@ Results log: 751 games graded (2026-11-05 to 2026-11-21)
     spread: no model beats a coin flip out-of-sample yet (market only)
     total:  no model beats a coin flip out-of-sample yet (market only); best test hit rate 52%
 
-  Bart Torvik       0 games
-      (0 KB page)  ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provid
+  Bart Torvik      38 games (from manual/torvik_20261122.csv)
   Haslametrics     38 games
   Massey           39 games
   Talisman Red     38 games
-      Dunkel loader: 3 clicks, 10 cards, last Sunday: 22 November | 10:00, stopped: nothing new loaded
-  Dunkel            7 games
-  Sasser         not posted yet (usually around midday CT) - re-run this afternoon to add it
+      Dunkel loader: 3 clicks, 10 cards, last Sunday: 22 November | 11:00, stopped: nothing new loaded
+  Dunkel            9 games
+  Sasser           14 games
   Market (ESPN/DK)   38 games
 
 38 games -> cbb_consensus_20261122.csv, cbb_consensus_20261122.html
@@ -69,24 +67,24 @@ The model-average and Torvik columns in the sheet are still there for tracking.
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
 9:00 AM  Miami OH          Illinois Chicago  no edge                               no edge               
 9:00 AM  Nebraska          Butler            no edge                               no edge               
-10:00 AM Chicago St.       Marquette         no edge                               no edge               
 10:00 AM Dayton            Northwestern      no edge                               no edge               
-10:00 AM Towson            American          no edge                               no edge               
-10:00 AM Fairfield         LIU               no edge                               no edge               
 10:00 AM Western Illinois  Canisius          no edge                               no edge               
+10:00 AM Fairfield         LIU               no edge                               no edge               
+10:00 AM Towson            American          no edge                               no edge               
+10:00 AM Chicago St.       Marquette         no edge                               no edge               
 11:00 AM Wyoming           Duquesne          no edge                               no edge               
-11:00 AM George Washington Western Kentucky  no edge                               no edge               
 11:00 AM South Dakota      Utah Tech         no edge                               no edge               
-11:00 AM William & Mary    Youngstown St.    no edge                               no edge               
-11:00 AM Evansville        Memphis           no edge                               no edge               
-11:00 AM San Diego         Fordham           no edge                               no edge               
+11:00 AM George Washington Western Kentucky  no edge                               no edge               
 11:00 AM UMass Lowell      Cincinnati        no edge                               no edge               
+11:00 AM William & Mary    Youngstown St.    no edge                               no edge               
+11:00 AM San Diego         Fordham           no edge                               no edge               
+11:00 AM Evansville        Memphis           no edge                               no edge               
 11:30 AM Robert Morris     New Mexico St.    no edge                               no edge               
 12:00 PM West Florida      South Alabama     no edge                               no edge               
 12:00 PM Troy              Nicholls          no edge                               no edge               
 12:00 PM Southern Indiana  Texas             no edge                               no edge               
-12:30 PM Mercyhurst        Albany            no edge                               no edge               
 12:30 PM Virginia Tech     Oklahoma St.      no edge                               no edge               
+12:30 PM Mercyhurst        Albany            no edge                               no edge               
 12:30 PM McNeese           Texas St.         no edge                               no edge               
 1:30 PM  IU Indy           Maryland Eastern  no edge                               no edge               
 1:30 PM  UC Irvine         Loyola Marymount  no edge                               no edge               
@@ -96,4 +94,4 @@ Start    Away              Home              Spread pick                   Flag 
 2:00 PM  UNC Asheville     Samford           no edge                               no edge               
 2:00 PM  NJIT              Boston College    no edge                               no edge               
 2:30 PM  Temple            Stephen F. Austin no edge                               no edge               
-3:00 PM  Utah              Minnesota         no edge                               no edge               
+3:00 PM  Southern Miss     Valparaiso        no edge                               no edge               
