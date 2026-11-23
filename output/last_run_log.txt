@@ -55,9 +55,9 @@ Results log: 751 games graded (2026-11-05 to 2026-11-21)
   Talisman Red     38 games
       Dunkel loader: 3 clicks, 10 cards, last Sunday: 22 November | 11:00, stopped: nothing new loaded
   Dunkel           10 games
-  Sasser           14 games
-  Market (ESPN/DK)    7 games
-  Kept 31 lines from today's earlier run that are no longer posted (games started/finished)
+  Sasser           13 games
+  Market (ESPN/DK)    2 games
+  Kept 37 lines from today's earlier run that are no longer posted (games started/finished)
 
 38 games -> cbb_consensus_20261122.csv, cbb_consensus_20261122.html
 
@@ -66,13 +66,8 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-4:00 PM  Rhode Island      UAB               no edge                               no edge               
-4:00 PM  Delaware          UCLA              no edge                               no edge               
-4:00 PM  Cal Baptist       Portland          no edge                               no edge               
-5:00 PM  Tennessee Martin  Utah Valley       no edge                               no edge               
-5:00 PM  Louisiana         USC               no edge                               no edge               
-6:30 PM  Seattle           UC San Diego      no edge                               no edge               
-8:59 PM  San Jose St.      Loyola Chicago    no edge                               no edge               
+6:30 PM  UC San Diego      Seattle           no edge                               no edge               
+8:59 PM  Loyola Chicago    San Jose St.      no edge                               no edge               
          West Florida      South Alabama     no edge                               no edge               
          Duquesne          Wyoming           no edge                               no edge               
          New Mexico St.    Robert Morris     no edge                               no edge               
@@ -93,6 +88,11 @@ Start    Away              Home              Spread pick                   Flag 
          William & Mary    Youngstown St.    no edge                               no edge               
          Albany            Mercyhurst        no edge                               no edge               
          Minnesota         Utah              no edge                               no edge               
+         Rhode Island      UAB               no edge                               no edge               
          Butler            Nebraska          no edge                               no edge               
          McNeese           Texas St.         no edge                               no edge               
          Western Illinois  Canisius          no edge                               no edge               
+         Tennessee Martin  Utah Valley       no edge                               no edge               
+         Fordham           San Diego         no edge                               no edge               
+         Fairfield         LIU               no edge                               no edge               
+         Stephen F. Austin Temple            no edge                               no edge               
