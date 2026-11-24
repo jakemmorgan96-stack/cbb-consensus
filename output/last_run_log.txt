@@ -1,4 +1,3 @@
-  Graded 34 finished games.
 Results log: 823 games graded (2026-11-05 to 2026-11-23)
   Need 52.4% to profit at -110. CLV = points the line moved your way before tip-off.
 
@@ -50,16 +49,14 @@ Results log: 823 games graded (2026-11-05 to 2026-11-23)
     spread: no model beats a coin flip out-of-sample yet (market only)
     total:  no model beats a coin flip out-of-sample yet (market only)
 
-  Bart Torvik       0 games
-      (0 KB page)  ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provid
+  Bart Torvik      78 games (from manual/torvik_20261124.csv)
   Haslametrics     78 games
   WARNING Massey: skipped a game where both teams read as 'Louisiana': 'Tue 11.24 | 8:30.PM.ET | Louisiana Chr | @ Louisiana | (1-8) | # 299 (1-4) | 0 | 0 | 43 | 90 | 0 % | 100 % | --- | -46.5'
   Massey           80 games
-  Talisman Red     74 games
-      Dunkel loader: 3 clicks, 10 cards, last Tuesday: 24 November | 09:30, stopped: nothing new loaded
-  Dunkel            3 games
-  Sasser            0 games
-      (98 KB page) College Basketball Predictions — David Sasser DS David Sasser CBB CFB NFL NBA CBB Join Discord Join Patreon CBB Predictions Tuesday, November 24 · Today's games Updated November 23 · 8:33 AM CT Model projections, sportsbook lines, and picks. All times Central All games 8 AP Top 25 7 Today's games 8 
+  Talisman Red     78 games
+      Dunkel loader: 3 clicks, 10 cards, last Tuesday: 24 November | 10:30, stopped: nothing new loaded
+  Dunkel            6 games
+  Sasser           40 games
   Market (ESPN/DK)   78 games
 
 78 games -> cbb_consensus_20261124.csv, cbb_consensus_20261124.html
@@ -87,13 +84,13 @@ Start    Away              Home              Spread pick                   Flag 
 1:30 PM  Tulsa             Illinois St.      no edge                               no edge               
 2:00 PM  Providence        Arizona           no edge                               no edge               
 2:30 PM  Creighton         Michigan          no edge                               no edge               
-2:30 PM  Wyoming           Kent St.          no edge                               no edge               
 2:30 PM  San Diego St.     Iowa St.          no edge                               no edge               
+2:30 PM  Wyoming           Kent St.          no edge                               no edge               
 3:00 PM  DePaul            Purdue            no edge                               no edge               
 3:00 PM  Eastern Michigan  Kennesaw St.      no edge                               no edge               
+3:00 PM  Sacred Heart      Rutgers           no edge                               no edge               
 3:00 PM  Mercer            Florida Atlantic  no edge                               no edge               
 3:00 PM  Queens            Wofford           no edge                               no edge               
-3:00 PM  Sacred Heart      Rutgers           no edge                               no edge               
 3:00 PM  Southern Indiana  VMI               no edge                               no edge               
 3:30 PM  Robert Morris     Lamar             no edge                               no edge               
 3:30 PM  Elon              Furman            no edge                               no edge               
