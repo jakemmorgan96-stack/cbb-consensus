@@ -49,31 +49,30 @@ Results log: 789 games graded (2026-11-05 to 2026-11-22)
     spread: no model beats a coin flip out-of-sample yet (market only)
     total:  no model beats a coin flip out-of-sample yet (market only)
 
-  Bart Torvik      34 games
+  Bart Torvik    using the page fetched earlier in this run
+  Bart Torvik      37 games
   Haslametrics     34 games
   Massey           37 games
   Talisman Red     34 games
       Dunkel loader: 3 clicks, 10 cards, last Monday: 23 November | 12:30, stopped: nothing new loaded
   Dunkel           10 games
   Sasser           13 games
-  Market (ESPN/DK)    7 games
-  Kept 27 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)    4 games
+  Kept 30 lines from today's earlier run that are no longer posted (games started/finished)
 
-34 games -> cbb_consensus_20261123.csv, cbb_consensus_20261123.html
+36 games -> cbb_consensus_20261123.csv, cbb_consensus_20261123.html
 
 Blended model = market only right now (no model's disagreement with the market has predicted bet
 results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-6:00 PM  VCU               Providence        no edge                               no edge               
-6:30 PM  UNC Greensboro    Pepperdine        no edge                               no edge               
-6:30 PM  Loyola Chicago    Seattle           no edge                               no edge               
 7:00 PM  Alabama St.       California        no edge                               no edge               
 7:00 PM  Eastern Washingto UNLV              no edge                               no edge               
 8:30 PM  Colorado St.      Arizona           no edge                               no edge               
 8:59 PM  San Jose St.      UC San Diego      no edge                               no edge               
          Winthrop          Illinois          no edge                               no edge               
+         UNC Greensboro    Pepperdine        no edge                               no edge               
          Texas A&M Corpus  Wichita St.       no edge                               no edge               
          BYU               Washington        no edge                               no edge               
          Tulsa             Oregon St.        no edge                               no edge               
@@ -91,8 +90,10 @@ Start    Away              Home              Spread pick                   Flag 
          Monmouth          North Carolina    no edge                               no edge               
          William & Mary    IU Indy           no edge                               no edge               
          Appalachian St.   St. Bonaventure   no edge                               no edge               
+         Providence        VCU               no edge                               no edge               
          Indiana St.       East Carolina     no edge                               no edge               
          Arkansas St.      Southern Utah     no edge                               no edge               
          North Carolina A& South Carolina St no edge                               no edge               
          Denver            Kansas            no edge                               no edge               
+         Loyola Chicago    Seattle           no edge                               no edge               
          Fairleigh Dickins Iona              no edge                               no edge               
