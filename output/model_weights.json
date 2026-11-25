@@ -1,32 +1,32 @@
 {
-  "updated": "2026-11-24",
-  "n": 823,
+  "updated": "2026-11-25",
+  "n": 901,
   "method": "cover",
   "spread": {
     "weights": {},
     "bias": {},
     "cap": null,
-    "n": 822,
+    "n": 900,
     "baseline_logloss": 0.6931,
-    "cv_logloss": 0.6935,
+    "cv_logloss": 0.6933,
     "cv_strong_picks": 0,
     "cv_strong_hit": null
   },
   "total": {
     "weights": {},
     "bias": {
-      "torvik": -0.49,
-      "haslametrics": 2.09,
-      "massey": -0.95,
-      "talismanred": -0.5,
-      "dunkel": -0.12,
-      "sasser": -0.83
+      "torvik": -0.33,
+      "haslametrics": 2.17,
+      "massey": -0.77,
+      "talismanred": -0.4,
+      "dunkel": 0.04,
+      "sasser": -0.96
     },
     "cap": null,
-    "n": 823,
+    "n": 901,
     "baseline_logloss": 0.6931,
-    "cv_logloss": 0.6926,
-    "cv_strong_picks": 18,
+    "cv_logloss": 0.6924,
+    "cv_strong_picks": 0,
     "cv_strong_hit": null
   }
 }
