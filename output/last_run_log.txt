@@ -57,8 +57,8 @@ Results log: 823 games graded (2026-11-05 to 2026-11-23)
       Dunkel loader: 3 clicks, 10 cards, last Tuesday: 24 November | 12:00, stopped: nothing new loaded
   Dunkel           10 games
   Sasser           40 games
-  Market (ESPN/DK)   52 games
-  Kept 26 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)   28 games
+  Kept 50 lines from today's earlier run that are no longer posted (games started/finished)
 
 78 games -> cbb_consensus_20261124.csv, cbb_consensus_20261124.html
 
@@ -67,33 +67,33 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-3:30 PM  Robert Morris     Lamar             no edge                               no edge               
-3:30 PM  Elon              Furman            no edge                               no edge               
-4:00 PM  Gardner Webb      Bowling Green     no edge                               no edge               
-4:00 PM  Hampton           Old Dominion      no edge                               no edge               
-4:00 PM  Vermont           Siena             no edge                               no edge               
-4:00 PM  Rider             Loyola MD         no edge                               no edge               
-4:00 PM  Georgia Southern  Bellarmine        no edge                               no edge               
-4:00 PM  Milwaukee         Florida           no edge                               no edge               
-4:00 PM  Bryant            Marist            no edge                               no edge               
-4:00 PM  Tarleton St.      Weber St.         no edge                               no edge               
-4:00 PM  Samford           Georgia Tech      no edge                               no edge               
-4:00 PM  Stetson           South Florida     no edge                               no edge               
-4:00 PM  New Hampshire     Seton Hall        no edge                               no edge               
-4:00 PM  Santa Clara       Nevada            no edge                               no edge               
-4:00 PM  Jacksonville      Indiana           no edge                               no edge               
-4:00 PM  Vanderbilt        Ohio St.          no edge                               no edge               
-4:00 PM  Charleston Southe James Madison     no edge                               no edge               
-4:00 PM  Binghamton        Lehigh            no edge                               no edge               
-4:00 PM  Mount St. Mary's  Morgan St.        no edge                               no edge               
-4:00 PM  Boston University Harvard           no edge                               no edge               
-4:00 PM  Delaware St.      Chattanooga       no edge                               no edge               
-4:00 PM  Campbell          Coastal Carolina  no edge                               no edge               
-4:00 PM  UMBC              Iowa              no edge                               no edge               
-4:00 PM  Coppin St.        Villanova         no edge                               no edge               
 4:30 PM  Duquesne          High Point        no edge                               no edge               
 4:30 PM  West Georgia      Tennessee Tech    no edge                               no edge               
 4:30 PM  Purdue Fort Wayne Southeast Missour no edge                               no edge               
 4:30 PM  Alcorn St.        Louisiana Tech    no edge                               no edge               
 4:30 PM  Houston Christian Louisiana Monroe  no edge                               no edge               
 5:00 PM  Central Michigan  Notre Dame        no edge                               no edge               
+5:00 PM  Green Bay         Kansas City       no edge                               no edge               
+5:00 PM  Florida A&M       South Alabama     no edge                               no edge               
+5:00 PM  Bucknell          Cornell           no edge                               no edge               
+5:00 PM  Clemson           Washington        no edge                               no edge               
+5:00 PM  Oral Roberts      UT Arlington      no edge                               no edge               
+5:00 PM  Army              Air Force         no edge                               no edge               
+5:00 PM  Texas Tech        Louisville        no edge                               no edge               
+5:00 PM  Lipscomb          Auburn            no edge                               no edge               
+5:00 PM  Alabama A&M       North Alabama     no edge                               no edge               
+5:00 PM  Drexel            Penn              no edge                               no edge               
+5:30 PM  UTEP              Charleston        no edge                               no edge               
+6:00 PM  Idaho St.         Boise St.         no edge                               no edge               
+6:00 PM  UNC Asheville     Florida St.       no edge                               no edge               
+6:00 PM  Sam Houston St.   Washington St.    no edge                               no edge               
+6:00 PM  UNC Greensboro    UC Santa Barbara  no edge                               no edge               
+6:00 PM  Evansville        Missouri          no edge                               no edge               
+6:30 PM  Saint Louis       Grand Canyon      no edge                               no edge               
+7:00 PM  Baylor            Alabama           no edge                               no edge               
+7:30 PM  VCU               Colorado St.      no edge                               no edge               
+7:30 PM  Oregon            St. John's        no edge                               no edge               
+8:59 PM  Colorado          Stanford          no edge                               no edge               
+9:30 PM  Gonzaga           Kansas St.        no edge                               no edge               
+         Gardner Webb      Bowling Green     no edge                               no edge               
+         Hampton           Old Dominion      no edge                               no edge               
