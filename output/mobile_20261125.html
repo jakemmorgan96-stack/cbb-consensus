@@ -9,7 +9,7 @@
  .top{display:flex;justify-content:space-between;font-size:12px;color:#777} .t{font-weight:600;color:#333}
  .teams{font-size:17px;font-weight:600;margin:4px 0 6px} .at{color:#999;font-weight:400}
  .tag{display:inline-block;font-size:12px;font-weight:600;padding:3px 8px;border-radius:6px;margin:0 4px 6px 0}
- .tag.w{background:#fff4d6;color:#7a5600} .tag.b{background:#dff5e8;color:#11683a}
+ .tag.w{background:#fff4d6;color:#7a5600} .tag.r{background:#e3edff;color:#1d4ea8} .tag.b{background:#dff5e8;color:#11683a}
  table{width:100%;border-collapse:collapse;font-size:14px} th{text-align:left;font-size:11px;color:#888;font-weight:500}
  td{padding:3px 0;border-top:1px solid #f0f0f0} td:first-child{color:#777;width:28%}
  td.big{font-weight:700} small{color:#999}
@@ -23,7 +23,7 @@
    .t{color:#ddd}.tag.w{background:#3a2e00;color:#ffd666}.hide,.bar button{background:#2a2a2c;color:#ddd;border-color:#444}.tag.b{background:#0f3321;color:#7ee2a8}}
 </style></head><body>
 <h1>CBB · Wed Nov 25</h1>
-<div class="sub">58 games · 0 bets · 6 Torvik-watch games (forward test, not bets).<br>
+<div class="sub">58 games · 0 bets · 7 Torvik-watch games (forward test, not bets).<br>
 Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+. Model totals show (+/–) vs the market total. * = not in the average.</div>
 <div class="bar"><button id="sh" onclick="document.body.classList.toggle('showall');upd()"></button>
 <button onclick="if(confirm('Unhide all games?')){hidden.clear();save();apply()}">Unhide all</button></div>
@@ -36,14 +36,14 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>St. Bonaventure -4.5</td><td>137.5</td></tr>
+    <tr><td>Market</td><td>St. Bonaventure -4.5</td><td>136.5</td></tr>
     <tr><td>Open</td><td>St. Bonaventure -3.5</td><td>140.5</td></tr>
     <tr><td>Model avg</td><td>Belmont -0.1</td><td>146.5</td></tr>
     <tr><td>Torvik lean</td><td class="" colspan="2">Belmont +4.5 <small>(0.5)</small></td></tr>
     <tr><td>Avg lean <small>(weaker)</small></td><td class="big">Belmont +4.5 <small>(4.6)</small></td>
-        <td>Over 137.5 <small>(9.0)</small></td></tr>
+        <td>Over 136.5 <small>(10.0)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>St. Bonaventure -4</td><td>140.0 <small>(+2.5)</small></td></tr><tr><td>Hasla</td><td>Belmont -0.9</td><td>150.8 <small>(+13.3)</small></td></tr><tr><td>Massey</td><td>Belmont -3.5</td><td>145.5 <small>(+8.0)</small></td></tr><tr><td>Talisman*</td><td>St. Bonaventure -1.7</td><td>149.8 <small>(+12.3)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>St. Bonaventure -4</td><td>140.0 <small>(+3.5)</small></td></tr><tr><td>Hasla</td><td>Belmont -0.9</td><td>150.8 <small>(+14.3)</small></td></tr><tr><td>Massey</td><td>Belmont -3.5</td><td>145.5 <small>(+9.0)</small></td></tr><tr><td>Talisman*</td><td>St. Bonaventure -1.7</td><td>149.8 <small>(+13.3)</small></td></tr></table></div>
 </div>
 <div class="card" data-id="Northern Iowa@Charlotte">
   <div class="top"><span class="t">8:00 AM</span>
@@ -53,21 +53,21 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Charlotte -7.5</td><td>144.5</td></tr>
+    <tr><td>Market</td><td>Charlotte -7.5</td><td>143.5</td></tr>
     <tr><td>Open</td><td>Charlotte -7.5</td><td>143.5</td></tr>
     <tr><td>Model avg</td><td>Charlotte -3.9</td><td>144.5</td></tr>
     <tr><td>Torvik lean</td><td class="" colspan="2">Charlotte -7.5 <small>(0.2)</small></td></tr>
     <tr><td>Avg lean <small>(weaker)</small></td><td class="big">Northern Iowa +7.5 <small>(3.6)</small></td>
-        <td>– <small>(0.0)</small></td></tr>
+        <td>Over 143.5 <small>(1.0)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Charlotte -7.7</td><td>151.0 <small>(+6.5)</small></td></tr><tr><td>Hasla</td><td>Charlotte -5.4</td><td>145.7 <small>(+1.2)</small></td></tr><tr><td>Massey</td><td>Northern Iowa -1.5</td><td>141.5 <small>(-3.0)</small></td></tr><tr><td>Talisman*</td><td>Charlotte -0.4</td><td>139.8 <small>(-4.7)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Charlotte -7.7</td><td>151.0 <small>(+7.5)</small></td></tr><tr><td>Hasla</td><td>Charlotte -5.4</td><td>145.7 <small>(+2.2)</small></td></tr><tr><td>Massey</td><td>Northern Iowa -1.5</td><td>141.5 <small>(-2.0)</small></td></tr><tr><td>Talisman*</td><td>Charlotte -0.4</td><td>139.8 <small>(-3.7)</small></td></tr></table></div>
 </div>
 <div class="card watch" data-id="Rice@Ohio">
   <div class="top"><span class="t">8:00 AM</span>
     <span class="m">3 models · SD 1.0
     <button class="hide" onclick="toggle(this)">Hide</button></span></div>
   <div class="teams">Rice <span class="at">@</span> Ohio</div>
-  <span class="tag w">Torvik watch: Rice +4.5 (opened Ohio -5.5)</span>
+  <span class="tag w">Torvik watch: Rice +4.5 (opened Ohio -5.5)</span><span class="tag r">Road-dog test: Rice +4.5</span>
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
     <tr><td>Market</td><td>Ohio -4.5</td><td>155.5</td></tr>
@@ -104,11 +104,11 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Wright St. -5.5</td><td>137.5</td></tr>
+    <tr><td>Market</td><td>Wright St. -6.5</td><td>137.5</td></tr>
     <tr><td>Open</td><td>Wright St. -7.5</td><td>141.5</td></tr>
     <tr><td>Model avg</td><td>Wright St. -3.1</td><td>145.8</td></tr>
-    <tr><td>Torvik lean</td><td class="" colspan="2">Wright St. -5.5 <small>(0.3)</small></td></tr>
-    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Yale +5.5 <small>(2.4)</small></td>
+    <tr><td>Torvik lean</td><td class="" colspan="2">Yale +6.5 <small>(0.7)</small></td></tr>
+    <tr><td>Avg lean <small>(weaker)</small></td><td class="big">Yale +6.5 <small>(3.4)</small></td>
         <td>Over 137.5 <small>(8.3)</small></td></tr>
   </table>
   <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Wright St. -5.8</td><td>138.0 <small>(+0.5)</small></td></tr><tr><td>Hasla</td><td>Wright St. -3.9</td><td>149.2 <small>(+11.7)</small></td></tr><tr><td>Massey</td><td>Yale -0.5</td><td>149.5 <small>(+12.0)</small></td></tr><tr><td>Talisman*</td><td>Wright St. -1.4</td><td>146.7 <small>(+9.2)</small></td></tr></table></div>
@@ -118,17 +118,17 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
     <span class="m">2 models · SD 2.5
     <button class="hide" onclick="toggle(this)">Hide</button></span></div>
   <div class="teams">Northern Colorado <span class="at">@</span> Detroit Mercy</div>
-  <span class="tag w">Torvik watch: Detroit Mercy +5.5 (opened Northern Colorado -6.5)</span>
+  <span class="tag w">Torvik watch: Detroit Mercy +6.5 (opened Northern Colorado -6.5)</span>
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Northern Colorado -5.5</td><td>147.5</td></tr>
+    <tr><td>Market</td><td>Northern Colorado -6.5</td><td>146.5</td></tr>
     <tr><td>Open</td><td>Northern Colorado -6.5</td><td>148.5</td></tr>
     <tr><td>Model avg</td><td>Northern Colorado -4.7</td><td>153.0</td></tr>
-    <tr><td>Torvik lean</td><td class="" colspan="2">Detroit Mercy +5.5 <small>(2.6)</small></td></tr>
-    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Detroit Mercy +5.5 <small>(0.8)</small></td>
-        <td>Over 147.5 <small>(5.5)</small></td></tr>
+    <tr><td>Torvik lean</td><td class="big" colspan="2">Detroit Mercy +6.5 <small>(3.6)</small></td></tr>
+    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Detroit Mercy +6.5 <small>(1.8)</small></td>
+        <td>Over 146.5 <small>(6.5)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Northern Colorado -2.9</td><td>150.0 <small>(+2.5)</small></td></tr><tr><td>Massey</td><td>Northern Colorado -6.5</td><td>153.5 <small>(+6.0)</small></td></tr><tr><td>Talisman*</td><td>Northern Colorado -4.9</td><td>155.5 <small>(+8.0)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Northern Colorado -2.9</td><td>150.0 <small>(+3.5)</small></td></tr><tr><td>Massey</td><td>Northern Colorado -6.5</td><td>153.5 <small>(+7.0)</small></td></tr><tr><td>Talisman*</td><td>Northern Colorado -4.9</td><td>155.5 <small>(+9.0)</small></td></tr></table></div>
 </div>
 <div class="card" data-id="Southern Utah@Long Beach St.">
   <div class="top"><span class="t">10:00 AM</span>
@@ -206,11 +206,11 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>LSU -3.5</td><td>145.5</td></tr>
+    <tr><td>Market</td><td>LSU -4.5</td><td>145.5</td></tr>
     <tr><td>Open</td><td>LSU -4.5</td><td>148.5</td></tr>
     <tr><td>Model avg</td><td>LSU -3.5</td><td>154.4</td></tr>
-    <tr><td>Torvik lean</td><td class="" colspan="2">LSU -3.5 <small>(1.2)</small></td></tr>
-    <tr><td>Avg lean <small>(weaker)</small></td><td class="">– <small>(0.0)</small></td>
+    <tr><td>Torvik lean</td><td class="" colspan="2">LSU -4.5 <small>(0.2)</small></td></tr>
+    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Arizona St. +4.5 <small>(1.0)</small></td>
         <td>Over 145.5 <small>(8.9)</small></td></tr>
   </table>
   <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>LSU -4.7</td><td>150.0 <small>(+4.5)</small></td></tr><tr><td>Hasla</td><td>LSU -2.2</td><td>153.6 <small>(+8.1)</small></td></tr><tr><td>Massey</td><td>LSU -3.5</td><td>156.5 <small>(+11.0)</small></td></tr><tr><td>Talisman*</td><td>LSU -5</td><td>157.5 <small>(+12.0)</small></td></tr></table></div>
@@ -220,17 +220,17 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
     <span class="m">3 models · SD 2.9
     <button class="hide" onclick="toggle(this)">Hide</button></span></div>
   <div class="teams">Arkansas Pine Bluff <span class="at">@</span> South Dakota</div>
-  
+  <span class="tag r">Road-dog test: Arkansas Pine Bluff +21.5</span>
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>South Dakota -21.5</td><td>153.5</td></tr>
+    <tr><td>Market</td><td>South Dakota -21.5</td><td>152.5</td></tr>
     <tr><td>Open</td><td>South Dakota -19.5</td><td>158.5</td></tr>
     <tr><td>Model avg</td><td>South Dakota -15.8</td><td>161.2</td></tr>
     <tr><td>Torvik lean</td><td class="big" colspan="2">Arkansas Pine Bluff +21.5 <small>(3.9)</small></td></tr>
     <tr><td>Avg lean <small>(weaker)</small></td><td class="big">Arkansas Pine Bluff +21.5 <small>(5.7)</small></td>
-        <td>Over 153.5 <small>(7.7)</small></td></tr>
+        <td>Over 152.5 <small>(8.7)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>South Dakota -17.6</td><td>163.0 <small>(+9.5)</small></td></tr><tr><td>Hasla</td><td>South Dakota -17.4</td><td>156.8 <small>(+3.3)</small></td></tr><tr><td>Massey</td><td>South Dakota -12.5</td><td>162.5 <small>(+9.0)</small></td></tr><tr><td>Talisman*</td><td>South Dakota -13.4</td><td>162.4 <small>(+8.9)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>South Dakota -17.6</td><td>163.0 <small>(+10.5)</small></td></tr><tr><td>Hasla</td><td>South Dakota -17.4</td><td>156.8 <small>(+4.3)</small></td></tr><tr><td>Massey</td><td>South Dakota -12.5</td><td>162.5 <small>(+10.0)</small></td></tr><tr><td>Talisman*</td><td>South Dakota -13.4</td><td>162.4 <small>(+9.9)</small></td></tr></table></div>
 </div>
 <div class="card" data-id="Saint Peter&#x27;s@Columbia">
   <div class="top"><span class="t">11:00 AM</span>
@@ -317,6 +317,23 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   </table>
   <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Arizona -3.2</td><td>153.0 <small>(-1.5)</small></td></tr><tr><td>Massey</td><td>Arizona -7.5</td><td>155.5 <small>(+1.0)</small></td></tr><tr><td>Talisman*</td><td>Arizona -9.4</td><td>152.1 <small>(-2.4)</small></td></tr></table></div>
 </div>
+<div class="card" data-id="Southeastern Louisiana@North Dakota">
+  <div class="top"><span class="t">12:00 PM</span>
+    <span class="m">2 models · SD 0.9
+    <button class="hide" onclick="toggle(this)">Hide</button></span></div>
+  <div class="teams">Southeastern Louisiana <span class="at">@</span> North Dakota</div>
+  
+  <table>
+    <tr><th></th><th>Spread</th><th>Total</th></tr>
+    <tr><td>Market</td><td>Southeastern Louisiana -1.5</td><td>143.5</td></tr>
+    <tr><td>Open</td><td>Southeastern Louisiana -1.5</td><td>147.5</td></tr>
+    <tr><td>Model avg</td><td>North Dakota -0.8</td><td>148.3</td></tr>
+    <tr><td>Torvik lean</td><td class="" colspan="2">North Dakota +1.5 <small>(1.7)</small></td></tr>
+    <tr><td>Avg lean <small>(weaker)</small></td><td class="">North Dakota +1.5 <small>(2.3)</small></td>
+        <td>Over 143.5 <small>(4.8)</small></td></tr>
+  </table>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>North Dakota -0.2</td><td>151.0 <small>(+7.5)</small></td></tr><tr><td>Massey</td><td>North Dakota -1.5</td><td>147.5 <small>(+4.0)</small></td></tr><tr><td>Talisman*</td><td>North Dakota -1.8</td><td>146.5 <small>(+3.0)</small></td></tr></table></div>
+</div>
 <div class="card" data-id="Akron@Appalachian St.">
   <div class="top"><span class="t">12:00 PM</span>
     <span class="m">3 models · SD 1.9
@@ -334,39 +351,22 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   </table>
   <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Akron -4.5</td><td>123.0 <small>(-9.5)</small></td></tr><tr><td>Hasla</td><td>Akron -1.8</td><td>138.3 <small>(+5.8)</small></td></tr><tr><td>Massey</td><td>Akron -5.5</td><td>141.5 <small>(+9.0)</small></td></tr><tr><td>Talisman*</td><td>Akron -3.7</td><td>145.0 <small>(+12.5)</small></td></tr></table></div>
 </div>
-<div class="card" data-id="Southeastern Louisiana@North Dakota">
-  <div class="top"><span class="t">12:00 PM</span>
-    <span class="m">2 models · SD 0.9
-    <button class="hide" onclick="toggle(this)">Hide</button></span></div>
-  <div class="teams">Southeastern Louisiana <span class="at">@</span> North Dakota</div>
-  
-  <table>
-    <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Southeastern Louisiana -1.5</td><td>144.5</td></tr>
-    <tr><td>Open</td><td>Southeastern Louisiana -1.5</td><td>147.5</td></tr>
-    <tr><td>Model avg</td><td>North Dakota -0.8</td><td>148.3</td></tr>
-    <tr><td>Torvik lean</td><td class="" colspan="2">North Dakota +1.5 <small>(1.7)</small></td></tr>
-    <tr><td>Avg lean <small>(weaker)</small></td><td class="">North Dakota +1.5 <small>(2.3)</small></td>
-        <td>Over 144.5 <small>(3.8)</small></td></tr>
-  </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>North Dakota -0.2</td><td>151.0 <small>(+6.5)</small></td></tr><tr><td>Massey</td><td>North Dakota -1.5</td><td>147.5 <small>(+3.0)</small></td></tr><tr><td>Talisman*</td><td>North Dakota -1.8</td><td>146.5 <small>(+2.0)</small></td></tr></table></div>
-</div>
 <div class="card" data-id="Jackson St.@Oklahoma St.">
   <div class="top"><span class="t">12:00 PM</span>
     <span class="m">3 models · SD 4.6
     <button class="hide" onclick="toggle(this)">Hide</button></span></div>
   <div class="teams">Jackson St. <span class="at">@</span> Oklahoma St.</div>
-  
+  <span class="tag r">Road-dog test: Jackson St. +34.5</span>
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Oklahoma St. -34.5</td><td>160.5</td></tr>
+    <tr><td>Market</td><td>Oklahoma St. -34.5</td><td>161.5</td></tr>
     <tr><td>Open</td><td>Oklahoma St. -35.5</td><td>160.5</td></tr>
     <tr><td>Model avg</td><td>Oklahoma St. -31.8</td><td>164.0</td></tr>
     <tr><td>Torvik lean</td><td class="big" colspan="2">Jackson St. +34.5 <small>(5.8)</small></td></tr>
     <tr><td>Avg lean <small>(weaker)</small></td><td class="">Jackson St. +34.5 <small>(2.7)</small></td>
-        <td>Over 160.5 <small>(3.5)</small></td></tr>
+        <td>Over 161.5 <small>(2.5)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Oklahoma St. -28.7</td><td>165.0 <small>(+4.5)</small></td></tr><tr><td>Hasla</td><td>Oklahoma St. -37.1</td><td>161.0 <small>(+0.5)</small></td></tr><tr><td>Massey</td><td>Oklahoma St. -29.5</td><td>160.5 <small>(+0.0)</small></td></tr><tr><td>Talisman*</td><td>Oklahoma St. -32.8</td><td>169.6 <small>(+9.1)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Oklahoma St. -28.7</td><td>165.0 <small>(+3.5)</small></td></tr><tr><td>Hasla</td><td>Oklahoma St. -37.1</td><td>161.0 <small>(-0.5)</small></td></tr><tr><td>Massey</td><td>Oklahoma St. -29.5</td><td>160.5 <small>(-1.0)</small></td></tr><tr><td>Talisman*</td><td>Oklahoma St. -32.8</td><td>169.6 <small>(+8.1)</small></td></tr></table></div>
 </div>
 <div class="card" data-id="Arkansas St.@FIU">
   <div class="top"><span class="t">12:30 PM</span>
@@ -385,22 +385,22 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   </table>
   <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>FIU -6</td><td>172.0 <small>(-1.5)</small></td></tr><tr><td>Hasla</td><td>FIU -8.2</td><td>167.6 <small>(-5.9)</small></td></tr><tr><td>Massey</td><td>Arkansas St. -1.5</td><td>162.5 <small>(-11.0)</small></td></tr><tr><td>Talisman*</td><td>FIU -0.6</td><td>173.1 <small>(-0.4)</small></td></tr></table></div>
 </div>
-<div class="card" data-id="Prairie View A&amp;M@Marshall">
+<div class="card" data-id="Georgia St.@Florida Gulf Coast">
   <div class="top"><span class="t">1:00 PM</span>
-    <span class="m">3 models · SD 2.4
+    <span class="m">3 models · SD 0.9
     <button class="hide" onclick="toggle(this)">Hide</button></span></div>
-  <div class="teams">Prairie View A&amp;M <span class="at">@</span> Marshall</div>
+  <div class="teams">Georgia St. <span class="at">@</span> Florida Gulf Coast</div>
   
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Marshall -15.5</td><td>151.5</td></tr>
-    <tr><td>Open</td><td>Marshall -17.5</td><td>151.5</td></tr>
-    <tr><td>Model avg</td><td>Marshall -13.5</td><td>156.9</td></tr>
-    <tr><td>Torvik lean</td><td class="big" colspan="2">Prairie View A&amp;M +15.5 <small>(4.6)</small></td></tr>
-    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Prairie View A&amp;M +15.5 <small>(2.0)</small></td>
-        <td>Over 151.5 <small>(5.4)</small></td></tr>
+    <tr><td>Market</td><td>Georgia St. -3.5</td><td>143.5</td></tr>
+    <tr><td>Open</td><td>Georgia St. -2.5</td><td>146.5</td></tr>
+    <tr><td>Model avg</td><td>Georgia St. -1</td><td>148.3</td></tr>
+    <tr><td>Torvik lean</td><td class="" colspan="2">Florida Gulf Coast +3.5 <small>(1.4)</small></td></tr>
+    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Florida Gulf Coast +3.5 <small>(2.5)</small></td>
+        <td>Over 143.5 <small>(4.8)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Marshall -10.9</td><td>153.0 <small>(+1.5)</small></td></tr><tr><td>Hasla</td><td>Marshall -14.1</td><td>161.2 <small>(+9.7)</small></td></tr><tr><td>Massey</td><td>Marshall -15.5</td><td>154.5 <small>(+3.0)</small></td></tr><tr><td>Talisman*</td><td>Marshall -17.1</td><td>158.8 <small>(+7.3)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Georgia St. -2.1</td><td>144.0 <small>(+0.5)</small></td></tr><tr><td>Hasla</td><td>Georgia St. -0.5</td><td>151.5 <small>(+8.0)</small></td></tr><tr><td>Massey</td><td>Georgia St. -0.5</td><td>151.5 <small>(+8.0)</small></td></tr><tr><td>Talisman*</td><td>Florida Gulf Coast -0.3</td><td>146.4 <small>(+2.9)</small></td></tr></table></div>
 </div>
 <div class="card" data-id="Princeton@Liberty">
   <div class="top"><span class="t">1:00 PM</span>
@@ -419,22 +419,22 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   </table>
   <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Liberty -2.3</td><td>136.0 <small>(+0.5)</small></td></tr><tr><td>Hasla</td><td>Liberty -3.8</td><td>139.8 <small>(+4.3)</small></td></tr><tr><td>Massey</td><td>Liberty -5.5</td><td>143.5 <small>(+8.0)</small></td></tr><tr><td>Talisman*</td><td>Liberty -7.9</td><td>141.7 <small>(+6.2)</small></td></tr></table></div>
 </div>
-<div class="card" data-id="Georgia St.@Florida Gulf Coast">
+<div class="card" data-id="Prairie View A&amp;M@Marshall">
   <div class="top"><span class="t">1:00 PM</span>
-    <span class="m">3 models · SD 0.9
+    <span class="m">3 models · SD 2.4
     <button class="hide" onclick="toggle(this)">Hide</button></span></div>
-  <div class="teams">Georgia St. <span class="at">@</span> Florida Gulf Coast</div>
-  
+  <div class="teams">Prairie View A&amp;M <span class="at">@</span> Marshall</div>
+  <span class="tag r">Road-dog test: Prairie View A&amp;M +15.5</span>
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Georgia St. -3.5</td><td>145.5</td></tr>
-    <tr><td>Open</td><td>Georgia St. -2.5</td><td>146.5</td></tr>
-    <tr><td>Model avg</td><td>Georgia St. -1</td><td>148.3</td></tr>
-    <tr><td>Torvik lean</td><td class="" colspan="2">Florida Gulf Coast +3.5 <small>(1.4)</small></td></tr>
-    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Florida Gulf Coast +3.5 <small>(2.5)</small></td>
-        <td>Over 145.5 <small>(2.8)</small></td></tr>
+    <tr><td>Market</td><td>Marshall -15.5</td><td>152.5</td></tr>
+    <tr><td>Open</td><td>Marshall -17.5</td><td>151.5</td></tr>
+    <tr><td>Model avg</td><td>Marshall -13.5</td><td>156.9</td></tr>
+    <tr><td>Torvik lean</td><td class="big" colspan="2">Prairie View A&amp;M +15.5 <small>(4.6)</small></td></tr>
+    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Prairie View A&amp;M +15.5 <small>(2.0)</small></td>
+        <td>Over 152.5 <small>(4.4)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Georgia St. -2.1</td><td>144.0 <small>(-1.5)</small></td></tr><tr><td>Hasla</td><td>Georgia St. -0.5</td><td>151.5 <small>(+6.0)</small></td></tr><tr><td>Massey</td><td>Georgia St. -0.5</td><td>151.5 <small>(+6.0)</small></td></tr><tr><td>Talisman*</td><td>Florida Gulf Coast -0.3</td><td>146.4 <small>(+0.9)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Marshall -10.9</td><td>153.0 <small>(+0.5)</small></td></tr><tr><td>Hasla</td><td>Marshall -14.1</td><td>161.2 <small>(+8.7)</small></td></tr><tr><td>Massey</td><td>Marshall -15.5</td><td>154.5 <small>(+2.0)</small></td></tr><tr><td>Talisman*</td><td>Marshall -17.1</td><td>158.8 <small>(+6.3)</small></td></tr></table></div>
 </div>
 <div class="card" data-id="Grambling St.@New Orleans">
   <div class="top"><span class="t">1:00 PM</span>
@@ -509,17 +509,17 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
     <span class="m">3 models · SD 0.2
     <button class="hide" onclick="toggle(this)">Hide</button></span></div>
   <div class="teams">Southern <span class="at">@</span> Nebraska</div>
-  
+  <span class="tag r">Road-dog test: Southern +35.5</span>
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Nebraska -35.5</td><td>149.5</td></tr>
+    <tr><td>Market</td><td>Nebraska -35.5</td><td>150.5</td></tr>
     <tr><td>Open</td><td>Nebraska -35.5</td><td>145.5</td></tr>
     <tr><td>Model avg</td><td>Nebraska -32.3</td><td>149.6</td></tr>
     <tr><td>Torvik lean</td><td class="big" colspan="2">Southern +35.5 <small>(3.4)</small></td></tr>
     <tr><td>Avg lean <small>(weaker)</small></td><td class="big">Southern +35.5 <small>(3.2)</small></td>
-        <td>Over 149.5 <small>(0.1)</small></td></tr>
+        <td>Under 150.5 <small>(0.9)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Nebraska -32.1</td><td>150.0 <small>(+0.5)</small></td></tr><tr><td>Hasla</td><td>Nebraska -32.2</td><td>149.9 <small>(+0.4)</small></td></tr><tr><td>Massey</td><td>Nebraska -32.5</td><td>147.5 <small>(-2.0)</small></td></tr><tr><td>Talisman*</td><td>Nebraska -34.3</td><td>150.8 <small>(+1.3)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Nebraska -32.1</td><td>150.0 <small>(-0.5)</small></td></tr><tr><td>Hasla</td><td>Nebraska -32.2</td><td>149.9 <small>(-0.6)</small></td></tr><tr><td>Massey</td><td>Nebraska -32.5</td><td>147.5 <small>(-3.0)</small></td></tr><tr><td>Talisman*</td><td>Nebraska -34.3</td><td>150.8 <small>(+0.3)</small></td></tr></table></div>
 </div>
 <div class="card" data-id="Memphis@Penn St.">
   <div class="top"><span class="t">2:00 PM</span>
@@ -580,14 +580,14 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   <span class="tag w">Torvik watch: Bethune Cookman +11.5 (opened Richmond -12.5)</span>
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Richmond -11.5</td><td>147.5</td></tr>
+    <tr><td>Market</td><td>Richmond -11.5</td><td>146.5</td></tr>
     <tr><td>Open</td><td>Richmond -12.5</td><td>149.5</td></tr>
     <tr><td>Model avg</td><td>Richmond -10.9</td><td>154.7</td></tr>
     <tr><td>Torvik lean</td><td class="" colspan="2">Bethune Cookman +11.5 <small>(2.5)</small></td></tr>
     <tr><td>Avg lean <small>(weaker)</small></td><td class="">Bethune Cookman +11.5 <small>(0.6)</small></td>
-        <td>Over 147.5 <small>(7.2)</small></td></tr>
+        <td>Over 146.5 <small>(8.2)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Richmond -9</td><td>153.0 <small>(+5.5)</small></td></tr><tr><td>Hasla</td><td>Richmond -10.2</td><td>153.7 <small>(+6.2)</small></td></tr><tr><td>Massey</td><td>Richmond -13.5</td><td>151.5 <small>(+4.0)</small></td></tr><tr><td>Talisman*</td><td>Richmond -13.3</td><td>160.4 <small>(+12.9)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Richmond -9</td><td>153.0 <small>(+6.5)</small></td></tr><tr><td>Hasla</td><td>Richmond -10.2</td><td>153.7 <small>(+7.2)</small></td></tr><tr><td>Massey</td><td>Richmond -13.5</td><td>151.5 <small>(+5.0)</small></td></tr><tr><td>Talisman*</td><td>Richmond -13.3</td><td>160.4 <small>(+13.9)</small></td></tr></table></div>
 </div>
 <div class="card watch" data-id="West Florida@Northwestern St.">
   <div class="top"><span class="t">3:00 PM</span>
@@ -614,14 +614,14 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Syracuse -26.5</td><td>148.5</td></tr>
+    <tr><td>Market</td><td>Syracuse -26.5</td><td>149.5</td></tr>
     <tr><td>Open</td><td>Syracuse -27.5</td><td>150.5</td></tr>
     <tr><td>Model avg</td><td>Syracuse -25.7</td><td>153.0</td></tr>
     <tr><td>Torvik lean</td><td class="" colspan="2">Albany +26.5 <small>(2.0)</small></td></tr>
     <tr><td>Avg lean <small>(weaker)</small></td><td class="">Albany +26.5 <small>(0.8)</small></td>
-        <td>Over 148.5 <small>(4.5)</small></td></tr>
+        <td>Over 149.5 <small>(3.5)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Syracuse -24.5</td><td>153.0 <small>(+4.5)</small></td></tr><tr><td>Hasla</td><td>Syracuse -28.2</td><td>154.7 <small>(+6.2)</small></td></tr><tr><td>Massey</td><td>Syracuse -24.5</td><td>151.5 <small>(+3.0)</small></td></tr><tr><td>Talisman*</td><td>Syracuse -25.2</td><td>152.7 <small>(+4.2)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Syracuse -24.5</td><td>153.0 <small>(+3.5)</small></td></tr><tr><td>Hasla</td><td>Syracuse -28.2</td><td>154.7 <small>(+5.2)</small></td></tr><tr><td>Massey</td><td>Syracuse -24.5</td><td>151.5 <small>(+2.0)</small></td></tr><tr><td>Talisman*</td><td>Syracuse -25.2</td><td>152.7 <small>(+3.2)</small></td></tr></table></div>
 </div>
 <div class="card" data-id="Cal St. Northridge@Weber St.">
   <div class="top"><span class="t">3:00 PM</span>
@@ -648,14 +648,14 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>The Citadel -4.5</td><td>137.5</td></tr>
+    <tr><td>Market</td><td>The Citadel -4.5</td><td>136.5</td></tr>
     <tr><td>Open</td><td>The Citadel -4.5</td><td>139.5</td></tr>
     <tr><td>Model avg</td><td>The Citadel -5.6</td><td>144.2</td></tr>
     <tr><td>Torvik lean</td><td class="" colspan="2">The Citadel -4.5 <small>(1.3)</small></td></tr>
     <tr><td>Avg lean <small>(weaker)</small></td><td class="">The Citadel -4.5 <small>(1.1)</small></td>
-        <td>Over 137.5 <small>(6.7)</small></td></tr>
+        <td>Over 136.5 <small>(7.7)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>The Citadel -5.8</td><td>140.0 <small>(+2.5)</small></td></tr><tr><td>Hasla</td><td>The Citadel -7.6</td><td>144.7 <small>(+7.2)</small></td></tr><tr><td>Massey</td><td>The Citadel -3.5</td><td>146.5 <small>(+9.0)</small></td></tr><tr><td>Talisman*</td><td>The Citadel -3.9</td><td>145.6 <small>(+8.1)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>The Citadel -5.8</td><td>140.0 <small>(+3.5)</small></td></tr><tr><td>Hasla</td><td>The Citadel -7.6</td><td>144.7 <small>(+8.2)</small></td></tr><tr><td>Massey</td><td>The Citadel -3.5</td><td>146.5 <small>(+10.0)</small></td></tr><tr><td>Talisman*</td><td>The Citadel -3.9</td><td>145.6 <small>(+9.1)</small></td></tr></table></div>
 </div>
 <div class="card" data-id="Norfolk St.@N.C. State">
   <div class="top"><span class="t">4:00 PM</span>
@@ -665,31 +665,14 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>N.C. State -28.5</td><td>150.5</td></tr>
+    <tr><td>Market</td><td>N.C. State -28.5</td><td>149.5</td></tr>
     <tr><td>Open</td><td>N.C. State -27.5</td><td>149.5</td></tr>
     <tr><td>Model avg</td><td>N.C. State -31.5</td><td>155.5</td></tr>
     <tr><td>Torvik lean</td><td class="big" colspan="2">N.C. State -28.5 <small>(4.2)</small></td></tr>
     <tr><td>Avg lean <small>(weaker)</small></td><td class="big">N.C. State -28.5 <small>(3.0)</small></td>
-        <td>Over 150.5 <small>(5.0)</small></td></tr>
+        <td>Over 149.5 <small>(6.0)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>N.C. State -32.7</td><td>157.0 <small>(+6.5)</small></td></tr><tr><td>Hasla</td><td>N.C. State -32.2</td><td>154.7 <small>(+4.2)</small></td></tr><tr><td>Massey</td><td>N.C. State -29.5</td><td>153.5 <small>(+3.0)</small></td></tr><tr><td>Talisman*</td><td>N.C. State -33.7</td><td>156.7 <small>(+6.2)</small></td></tr></table></div>
-</div>
-<div class="card" data-id="SMU@Utah St.">
-  <div class="top"><span class="t">4:00 PM</span>
-    <span class="m">3 models · SD 1.5
-    <button class="hide" onclick="toggle(this)">Hide</button></span></div>
-  <div class="teams">SMU <span class="at">@</span> Utah St.</div>
-  
-  <table>
-    <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Utah St. -4.5</td><td>166.5</td></tr>
-    <tr><td>Open</td><td>Utah St. -4.5</td><td>169.5</td></tr>
-    <tr><td>Model avg</td><td>Utah St. -1.9</td><td>162.4</td></tr>
-    <tr><td>Torvik lean</td><td class="" colspan="2">SMU +4.5 <small>(2.7)</small></td></tr>
-    <tr><td>Avg lean <small>(weaker)</small></td><td class="">SMU +4.5 <small>(2.6)</small></td>
-        <td>Under 166.5 <small>(4.1)</small></td></tr>
-  </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Utah St. -1.8</td><td>164.0 <small>(-2.5)</small></td></tr><tr><td>Hasla</td><td>Utah St. -0.5</td><td>163.4 <small>(-3.1)</small></td></tr><tr><td>Massey</td><td>Utah St. -3.5</td><td>158.5 <small>(-8.0)</small></td></tr><tr><td>Talisman*</td><td>Utah St. -3.8</td><td>163.7 <small>(-2.8)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>N.C. State -32.7</td><td>157.0 <small>(+7.5)</small></td></tr><tr><td>Hasla</td><td>N.C. State -32.2</td><td>154.7 <small>(+5.2)</small></td></tr><tr><td>Massey</td><td>N.C. State -29.5</td><td>153.5 <small>(+4.0)</small></td></tr><tr><td>Talisman*</td><td>N.C. State -33.7</td><td>156.7 <small>(+7.2)</small></td></tr></table></div>
 </div>
 <div class="card" data-id="Bellarmine@Northern Kentucky">
   <div class="top"><span class="t">4:00 PM</span>
@@ -699,11 +682,11 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Northern Kentucky -5.5</td><td>148.5</td></tr>
+    <tr><td>Market</td><td>Northern Kentucky -7.5</td><td>148.5</td></tr>
     <tr><td>Open</td><td>Northern Kentucky -6.5</td><td>149.5</td></tr>
     <tr><td>Model avg</td><td>Northern Kentucky -7.1</td><td>152.6</td></tr>
-    <tr><td>Torvik lean</td><td class="" colspan="2">Northern Kentucky -5.5 <small>(0.5)</small></td></tr>
-    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Northern Kentucky -5.5 <small>(1.6)</small></td>
+    <tr><td>Torvik lean</td><td class="" colspan="2">Bellarmine +7.5 <small>(1.5)</small></td></tr>
+    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Bellarmine +7.5 <small>(0.4)</small></td>
         <td>Over 148.5 <small>(4.1)</small></td></tr>
   </table>
   <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Northern Kentucky -6</td><td>150.0 <small>(+1.5)</small></td></tr><tr><td>Hasla</td><td>Northern Kentucky -7.7</td><td>152.6 <small>(+4.1)</small></td></tr><tr><td>Massey</td><td>Northern Kentucky -7.5</td><td>157.5 <small>(+9.0)</small></td></tr><tr><td>Talisman*</td><td>Northern Kentucky -4.6</td><td>150.3 <small>(+1.8)</small></td></tr></table></div>
@@ -742,22 +725,39 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   </table>
   <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Northern Illinois -1.3</td><td>142.0 <small>(+3.5)</small></td></tr><tr><td>Hasla</td><td>SIUE -0.6</td><td>146.4 <small>(+7.9)</small></td></tr><tr><td>Massey</td><td>SIUE -1.5</td><td>141.5 <small>(+3.0)</small></td></tr><tr><td>Talisman*</td><td>SIUE -1.2</td><td>127.7 <small>(-10.8)</small></td></tr></table></div>
 </div>
-<div class="card" data-id="Northeastern@Wisconsin">
+<div class="card watch" data-id="Northeastern@Wisconsin">
   <div class="top"><span class="t">4:00 PM</span>
     <span class="m">3 models · SD 6.2
     <button class="hide" onclick="toggle(this)">Hide</button></span></div>
   <div class="teams">Northeastern <span class="at">@</span> Wisconsin</div>
-  
+  <span class="tag w">Torvik watch: Northeastern +19.5 (opened Wisconsin -21.5)</span>
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Wisconsin -20.5</td><td>155.5</td></tr>
+    <tr><td>Market</td><td>Wisconsin -19.5</td><td>155.5</td></tr>
     <tr><td>Open</td><td>Wisconsin -21.5</td><td>158.5</td></tr>
     <tr><td>Model avg</td><td>Wisconsin -21.3</td><td>158.8</td></tr>
-    <tr><td>Torvik lean</td><td class="big" colspan="2">Northeastern +20.5 <small>(3.3)</small></td></tr>
-    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Wisconsin -20.5 <small>(0.8)</small></td>
+    <tr><td>Torvik lean</td><td class="" colspan="2">Northeastern +19.5 <small>(2.3)</small></td></tr>
+    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Wisconsin -19.5 <small>(1.8)</small></td>
         <td>Over 155.5 <small>(3.3)</small></td></tr>
   </table>
   <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Wisconsin -17.2</td><td>158.0 <small>(+2.5)</small></td></tr><tr><td>Hasla</td><td>Wisconsin -18.3</td><td>157.9 <small>(+2.4)</small></td></tr><tr><td>Massey</td><td>Wisconsin -28.5</td><td>157.5 <small>(+2.0)</small></td></tr><tr><td>Talisman*</td><td>Wisconsin -24.6</td><td>162.0 <small>(+6.5)</small></td></tr></table></div>
+</div>
+<div class="card" data-id="SMU@Utah St.">
+  <div class="top"><span class="t">4:00 PM</span>
+    <span class="m">3 models · SD 1.5
+    <button class="hide" onclick="toggle(this)">Hide</button></span></div>
+  <div class="teams">SMU <span class="at">@</span> Utah St.</div>
+  
+  <table>
+    <tr><th></th><th>Spread</th><th>Total</th></tr>
+    <tr><td>Market</td><td>Utah St. -4.5</td><td>163.5</td></tr>
+    <tr><td>Open</td><td>Utah St. -4.5</td><td>169.5</td></tr>
+    <tr><td>Model avg</td><td>Utah St. -1.9</td><td>162.4</td></tr>
+    <tr><td>Torvik lean</td><td class="" colspan="2">SMU +4.5 <small>(2.7)</small></td></tr>
+    <tr><td>Avg lean <small>(weaker)</small></td><td class="">SMU +4.5 <small>(2.6)</small></td>
+        <td>Under 163.5 <small>(1.1)</small></td></tr>
+  </table>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Utah St. -1.8</td><td>164.0 <small>(+0.5)</small></td></tr><tr><td>Hasla</td><td>Utah St. -0.5</td><td>163.4 <small>(-0.1)</small></td></tr><tr><td>Massey</td><td>Utah St. -3.5</td><td>158.5 <small>(-5.0)</small></td></tr><tr><td>Talisman*</td><td>Utah St. -3.8</td><td>163.7 <small>(+0.2)</small></td></tr></table></div>
 </div>
 <div class="card" data-id="St. Thomas@UNC Wilmington">
   <div class="top"><span class="t">4:00 PM</span>
@@ -801,14 +801,14 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Mississippi St. -3.5</td><td>150.5</td></tr>
+    <tr><td>Market</td><td>Mississippi St. -3.5</td><td>149.5</td></tr>
     <tr><td>Open</td><td>Mississippi St. -4.5</td><td>150.5</td></tr>
     <tr><td>Model avg</td><td>Mississippi St. -3.1</td><td>152.2</td></tr>
     <tr><td>Torvik lean</td><td class="" colspan="2">Wake Forest +3.5 <small>(0.2)</small></td></tr>
     <tr><td>Avg lean <small>(weaker)</small></td><td class="">Wake Forest +3.5 <small>(0.4)</small></td>
-        <td>Over 150.5 <small>(1.7)</small></td></tr>
+        <td>Over 149.5 <small>(2.7)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Mississippi St. -3.3</td><td>149.0 <small>(-1.5)</small></td></tr><tr><td>Hasla</td><td>Mississippi St. -4.4</td><td>156.0 <small>(+5.5)</small></td></tr><tr><td>Massey</td><td>Mississippi St. -1.5</td><td>152.5 <small>(+2.0)</small></td></tr><tr><td>Talisman*</td><td>Wake Forest -1.4</td><td>151.2 <small>(+0.7)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Mississippi St. -3.3</td><td>149.0 <small>(-0.5)</small></td></tr><tr><td>Hasla</td><td>Mississippi St. -4.4</td><td>156.0 <small>(+6.5)</small></td></tr><tr><td>Massey</td><td>Mississippi St. -1.5</td><td>152.5 <small>(+3.0)</small></td></tr><tr><td>Talisman*</td><td>Wake Forest -1.4</td><td>151.2 <small>(+1.7)</small></td></tr></table></div>
 </div>
 <div class="card" data-id="Cal St. Bakersfield@Pepperdine">
   <div class="top"><span class="t">5:00 PM</span>
@@ -818,11 +818,11 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Pepperdine -10.5</td><td>160.5</td></tr>
+    <tr><td>Market</td><td>Pepperdine -8.5</td><td>160.5</td></tr>
     <tr><td>Open</td><td>Pepperdine -10.5</td><td>160.5</td></tr>
     <tr><td>Model avg</td><td>Pepperdine -9.8</td><td>163.8</td></tr>
-    <tr><td>Torvik lean</td><td class="" colspan="2">Cal St. Bakersfield +10.5 <small>(0.4)</small></td></tr>
-    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Cal St. Bakersfield +10.5 <small>(0.7)</small></td>
+    <tr><td>Torvik lean</td><td class="" colspan="2">Pepperdine -8.5 <small>(1.6)</small></td></tr>
+    <tr><td>Avg lean <small>(weaker)</small></td><td class="">Pepperdine -8.5 <small>(1.3)</small></td>
         <td>Over 160.5 <small>(3.3)</small></td></tr>
   </table>
   <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Pepperdine -10.1</td><td>166.0 <small>(+5.5)</small></td></tr><tr><td>Hasla</td><td>Pepperdine -11.7</td><td>162.5 <small>(+2.0)</small></td></tr><tr><td>Massey</td><td>Pepperdine -7.5</td><td>156.5 <small>(-4.0)</small></td></tr><tr><td>Talisman*</td><td>Pepperdine -13.5</td><td>170.4 <small>(+9.9)</small></td></tr></table></div>
@@ -866,7 +866,7 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
     <span class="m">3 models · SD 6.1
     <button class="hide" onclick="toggle(this)">Hide</button></span></div>
   <div class="teams">Mississippi Valley St. <span class="at">@</span> New Mexico</div>
-  
+  <span class="tag r">Road-dog test: Mississippi Valley St. +36.5</span>
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
     <tr><td>Market</td><td>New Mexico -36.5</td><td>152.5</td></tr>
@@ -954,14 +954,14 @@ Yellow edge = Torvik watch · green = bet. Edge in (points) vs market; bold = 3+
   
   <table>
     <tr><th></th><th>Spread</th><th>Total</th></tr>
-    <tr><td>Market</td><td>Clemson -2.5</td><td>151.5</td></tr>
+    <tr><td>Market</td><td>Clemson -2.5</td><td>150.5</td></tr>
     <tr><td>Open</td><td>Clemson -2.5</td><td>153.5</td></tr>
     <tr><td>Model avg</td><td>Clemson -2.4</td><td>144.7</td></tr>
     <tr><td>Torvik lean</td><td class="" colspan="2">Colorado St. +2.5 <small>(0.2)</small></td></tr>
     <tr><td>Avg lean <small>(weaker)</small></td><td class="">Colorado St. +2.5 <small>(0.1)</small></td>
-        <td>Under 151.5 <small>(6.8)</small></td></tr>
+        <td>Under 150.5 <small>(5.8)</small></td></tr>
   </table>
-  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Clemson -2.3</td><td>150.0 <small>(-1.5)</small></td></tr><tr><td>Massey</td><td>Clemson -2.5</td><td>143.5 <small>(-8.0)</small></td></tr><tr><td>Talisman*</td><td>Clemson -6</td><td>140.5 <small>(-11.0)</small></td></tr></table></div>
+  <div class="models"><table class="mt"><tr><th>Model</th><th>Spread</th><th>Total <small>(vs mkt)</small></th></tr><tr><td>Torvik</td><td>Clemson -2.3</td><td>150.0 <small>(-0.5)</small></td></tr><tr><td>Massey</td><td>Clemson -2.5</td><td>143.5 <small>(-7.0)</small></td></tr><tr><td>Talisman*</td><td>Clemson -6</td><td>140.5 <small>(-10.0)</small></td></tr></table></div>
 </div>
 <div class="card" data-id="Colorado@Grand Canyon">
   <div class="top"><span class="t">TBD</span>

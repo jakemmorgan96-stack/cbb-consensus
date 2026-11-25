@@ -1,4 +1,3 @@
-  Graded 78 finished games.
 Results log: 901 games graded (2026-11-05 to 2026-11-24)
   Need 52.4% to profit at -110. CLV = points the line moved your way before tip-off.
 
@@ -34,6 +33,8 @@ Results log: 901 games graded (2026-11-05 to 2026-11-24)
     Dunkel         spread 225-228 (50%)    total 220-238 (48%)
     Sasser         spread 98-81 (55%)      total 68-52 (57%)
 
+  Road-dog test (Torvik 3+ off, taking the road underdog; since 2026-11-25): no graded games yet  - needs ~150 bets
+
   Torvik watch (forward test since 2026-11-14): vs opening line 47-51 (48%), vs morning line 44-54 (45%)  - needs ~150 bets before it means much
 
   Trend - last 7 days (338 games) vs season (901), own side at 3+ pts / avg miss:
@@ -50,20 +51,20 @@ Results log: 901 games graded (2026-11-05 to 2026-11-24)
     spread: no model beats a coin flip out-of-sample yet (market only)
     total:  no model beats a coin flip out-of-sample yet (market only)
 
-  Bart Torvik    using the page fetched earlier in this run
-  Bart Torvik      58 games
+  Bart Torvik       0 games
+      (0 KB page)  ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provid
   Haslametrics     48 games
   Massey           60 games
   Talisman Red     58 games
-      Dunkel loader: 3 clicks, 10 cards, last Tuesday: 24 November | 19:30, stopped: nothing new loaded
-      Dunkel loader: 3 clicks, 10 cards, last Tuesday: 24 November | 19:30, stopped: nothing new loaded
-      Dunkel loader: 3 clicks, 10 cards, last Tuesday: 24 November | 19:30, stopped: nothing new loaded
-      Dunkel loader: 3 clicks, 10 cards, last Tuesday: 24 November | 19:30, stopped: nothing new loaded
+      Dunkel loader: 3 clicks, 10 cards, last Tuesday: 24 November | 21:00, stopped: nothing new loaded
+      Dunkel loader: 3 clicks, 10 cards, last Tuesday: 24 November | 21:00, stopped: nothing new loaded
+      Dunkel loader: 3 clicks, 10 cards, last Tuesday: 24 November | 21:00, stopped: nothing new loaded
+      Dunkel loader: 3 clicks, 10 cards, last Tuesday: 24 November | 21:00, stopped: nothing new loaded
   Dunkel            0 games
       (8 KB page) HOME PICKS RESULTS RANKINGS NEWS ABOUT US FAQ CONTACT NCAA PICKS & PREDICTIONS EXPERT COLLEGE BASKETBALL BETTING PREDICTIONS BET ON MARCH MADNESS View the best NCAA Basketball picks for free, as predicted by The Dunkel Index, widely considered the best in the business. Date ALL Sport BASKETBALL Leag
-  Sasser            0 games
-      (267 KB page) College Basketball Predictions — David Sasser DS David Sasser CBB CFB NFL NBA CBB Join Discord Join Patreon Discover more College Basketball Guide Sports Prediction Model Sports News Updates CBB Predictions Wednesday, November 25 · Today's games Try New Games No game projections for today Check back
+  Sasser         not posted yet (usually around midday CT) - re-run this afternoon to add it
   Market (ESPN/DK)   55 games
+  Kept 58 lines from today's earlier run that are no longer posted (games started/finished)
 
 58 games -> cbb_consensus_20261125.csv, cbb_consensus_20261125.html
 
@@ -89,13 +90,13 @@ Start    Away              Home              Spread pick                   Flag 
 11:00 AM Manhattan         NJIT              no edge                               no edge               
 11:30 AM Texas A&M         Xavier            no edge                               no edge               
 11:30 AM Mississippi       Arizona           no edge                               no edge               
-12:00 PM Akron             Appalachian St.   no edge                               no edge               
 12:00 PM Southeastern Loui North Dakota      no edge                               no edge               
+12:00 PM Akron             Appalachian St.   no edge                               no edge               
 12:00 PM Jackson St.       Oklahoma St.      no edge                               no edge               
 12:30 PM Arkansas St.      FIU               no edge                               no edge               
-1:00 PM  Prairie View A&M  Marshall          no edge                               no edge               
-1:00 PM  Princeton         Liberty           no edge                               no edge               
 1:00 PM  Georgia St.       Florida Gulf Coas no edge                               no edge               
+1:00 PM  Princeton         Liberty           no edge                               no edge               
+1:00 PM  Prairie View A&M  Marshall          no edge                               no edge               
 1:00 PM  Grambling St.     New Orleans       no edge                               no edge               
 1:30 PM  South Carolina    USC               no edge                               no edge               
 2:00 PM  Holy Cross        Dartmouth         no edge                               no edge               
