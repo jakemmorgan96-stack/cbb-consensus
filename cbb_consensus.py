@@ -730,6 +730,7 @@ def safe_write(path: Path, write_fn) -> Path:
 WEIGHTS_FILE = OUT / "model_weights.json"
 BET_PROB = 0.545          # flag a bet only when the cover / over-under chance is at least this
 WATCH_START = "2026-11-14"     # Torvik watch rule frozen on this date; only later games test it
+ROADDOG_START = "2026-11-25"   # road-dog rule found in data through Nov 24; only later games test it
 WATCH_GAP = (3.0, 5.0)         # Torvik vs opening line, points
 WATCH_MAX_LINE = 20.0          # skip games with a market spread of 20+ (big gaps on huge favorites lose)
 MIN_GAMES_FOR_BETS = 300  # before this many graded games, strong picks show as "lean", not "BET"
@@ -1059,6 +1060,11 @@ def summarize(g: Game, sites: list[str], W: dict | None = None) -> dict:
         if WATCH_GAP[0] <= abs(gap) < WATCH_GAP[1]:
             row["torvik_watch"] = (f"{g.home} {row['mkt_line']:+g}" if gap > 0 else f"{g.away} {-row['mkt_line']:+g}") \
                 + " (opened " + (f"{g.home} {ol:g}" if ol < 0 else f"{g.away} {-ol:g}" if ol > 0 else "PK") + ")"
+    # Road-dog test: Torvik 3+ pts off the morning line AND it's taking the road underdog
+    # (55% at the morning line through Nov 24, both halves of the season; tracked from Nov 25).
+    row["torvik_roaddog"] = ""
+    if te not in ("", 0) and abs(te) >= 3 and te < 0 and row["mkt_line"] != "" and row["mkt_line"] < 0:
+        row["torvik_roaddog"] = f"{g.away} {-row['mkt_line']:+g}"
     # Blended prediction from the calibrated weights
     b = blend(g, mk, W or load_weights())
     row.update(b)
@@ -1091,7 +1097,7 @@ def out_columns(sites):
              ("blend_line", "Blended spread"), ("mkt_line", "Market spread"), ("cover_pct", "Pick / cover %"), ("bspread_flag", "Spread bet?"),
              ("blend_total", "Blended total"), ("mkt_total", "Market total"), ("ou_pct", "Pick / O-U %"), ("btotal_flag", "Total bet?"),
              ("cons_line", "Model avg spread"), ("spread_edge", "Avg spread edge"), ("lean", "Avg spread lean"),
-             ("torvik_edge_pts", "Torvik edge"), ("torvik_lean", "Torvik lean"), ("torvik_watch", "Torvik watch (test)"),
+             ("torvik_edge_pts", "Torvik edge"), ("torvik_lean", "Torvik lean"), ("torvik_watch", "Torvik watch (test)"), ("torvik_roaddog", "Road-dog test"),
              ("cons_total", "Model avg total"), ("total_edge_pts", "Avg total edge"), ("total_lean", "Avg total lean"),
              ("model_spread_sd", "Model disagreement (SD)"), ("n_models", "# models"),
              ("open_line", "Open spread"), ("open_total", "Open total")]
@@ -1436,6 +1442,19 @@ def results_summary(sites: list[str]) -> str:
             sp, to = model_record(opened, s, "spread", vs="open"), model_record(opened, s, "total", vs="open")
             if sp != "-" or to != "-":
                 out.append(f"    {SITES[s]['name']:<14} spread {sp.split(' CLV')[0]:<16} total {to.split(' CLV')[0]}")
+    # Road-dog test: forward only (games on/after ROADDOG_START), graded at the morning line
+    w_ = l_ = 0
+    for r in rows:
+        if r["date"] < ROADDOG_START or not (r.get("torvik_line") and r.get("mkt_line")):
+            continue
+        ml, tl = float(r["mkt_line"]), float(r["torvik_line"])
+        if ml < 0 and tl - ml >= 3:          # Torvik likes the road dog by 3+
+            res = float(r["home_score"]) - float(r["away_score"]) + ml
+            if res != 0:
+                w_ += res < 0; l_ += res > 0
+    out += ["", f"  Road-dog test (Torvik 3+ off, taking the road underdog; since {ROADDOG_START}): "
+                + (f"{w_}-{l_} ({100 * w_ / (w_ + l_):.0f}%)" if w_ + l_ else "no graded games yet")
+                + "  - needs ~150 bets"]
     # Torvik watch: forward test only (games on/after WATCH_START)
     tw = [r for r in rows if r["date"] >= WATCH_START and r.get("open_line") and r.get("torvik_line") and r.get("mkt_line")]
     if tw:

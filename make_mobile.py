@@ -30,6 +30,7 @@ def main():
     cards, n_watch, n_bet = [], 0, 0
     for r in rows:
         watch = (r.get("Torvik watch (test)") or "").strip()
+        rdog = (r.get("Road-dog test") or "").strip()
         bet_s, bet_t = (r.get("Spread bet?") or "").strip(), (r.get("Total bet?") or "").strip()
         n_watch += bool(watch)
         n_bet += bool(bet_s) + bool(bet_t)
@@ -43,6 +44,8 @@ def main():
             tags += f'<span class="tag b">TOTAL {e(bet_t)}: {e(r.get("Pick / O-U %"))}</span>'
         if watch:
             tags += f'<span class="tag w">Torvik watch: {e(watch)}</span>'
+        if rdog:
+            tags += f'<span class="tag r">Road-dog test: {e(rdog)}</span>'
         mrows = ""
         for col, short in models:
             base = col.replace(" (not in avg)", "")
@@ -85,7 +88,7 @@ def main():
  .top{{display:flex;justify-content:space-between;font-size:12px;color:#777}} .t{{font-weight:600;color:#333}}
  .teams{{font-size:17px;font-weight:600;margin:4px 0 6px}} .at{{color:#999;font-weight:400}}
  .tag{{display:inline-block;font-size:12px;font-weight:600;padding:3px 8px;border-radius:6px;margin:0 4px 6px 0}}
- .tag.w{{background:#fff4d6;color:#7a5600}} .tag.b{{background:#dff5e8;color:#11683a}}
+ .tag.w{{background:#fff4d6;color:#7a5600}} .tag.r{{background:#e3edff;color:#1d4ea8}} .tag.b{{background:#dff5e8;color:#11683a}}
  table{{width:100%;border-collapse:collapse;font-size:14px}} th{{text-align:left;font-size:11px;color:#888;font-weight:500}}
  td{{padding:3px 0;border-top:1px solid #f0f0f0}} td:first-child{{color:#777;width:28%}}
  td.big{{font-weight:700}} small{{color:#999}}
