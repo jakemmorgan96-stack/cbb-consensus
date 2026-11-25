@@ -2,10 +2,11 @@ name: Daily CBB sheet
 
 on:
   schedule:
-    - cron: "0 14 * * *"     # ~6 AM PT: grade yesterday, build today's sheet
-    - cron: "0 16 * * *"     # ~8 AM PT (extra tries: Torvik sometimes blocks GitHub servers)
-    - cron: "0 18 * * *"     # ~10 AM PT
-    - cron: "30 21 * * *"   # ~1:30 PM Pacific: rerun to add Sasser (posts around midday CT)
+    # Odd minutes on purpose: GitHub queues jobs at :00/:30 the longest.
+    - cron: "41 13 * * *"    # ~5:41 AM PT: grade yesterday, build today's sheet
+    - cron: "17 16 * * *"    # ~8:17 AM PT (extra try: Torvik sometimes blocks GitHub servers)
+    - cron: "23 19 * * *"    # ~11:23 AM PT: add Sasser (posts around midday CT)
+    - cron: "52 20 * * *"    # ~12:52 PM PT: second try for Sasser
   workflow_dispatch: {}      # "Run workflow" button for manual runs
 
 permissions:
