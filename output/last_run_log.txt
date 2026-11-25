@@ -57,8 +57,8 @@ Results log: 823 games graded (2026-11-05 to 2026-11-23)
       Dunkel loader: 3 clicks, 10 cards, last Tuesday: 24 November | 12:00, stopped: nothing new loaded
   Dunkel           10 games
   Sasser           40 games
-  Market (ESPN/DK)   12 games
-  Kept 66 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)    2 games
+  Kept 78 lines from today's earlier run that are no longer posted (games started/finished)
 
 78 games -> cbb_consensus_20261124.csv, cbb_consensus_20261124.html
 
@@ -67,33 +67,33 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-6:00 PM  Idaho St.         Boise St.         no edge                               no edge               
-6:00 PM  UNC Asheville     Florida St.       no edge                               no edge               
-6:00 PM  Sam Houston St.   Washington St.    no edge                               no edge               
-6:00 PM  UNC Greensboro    UC Santa Barbara  no edge                               no edge               
-6:00 PM  UTEP              Charleston        no edge                               no edge               
-6:00 PM  Evansville        Missouri          no edge                               no edge               
-6:30 PM  Saint Louis       Grand Canyon      no edge                               no edge               
-7:00 PM  Baylor            Alabama           no edge                               no edge               
-7:30 PM  VCU               Colorado St.      no edge                               no edge               
-7:30 PM  Oregon            St. John's        no edge                               no edge               
 8:59 PM  Colorado          Stanford          no edge                               no edge               
 9:30 PM  Gonzaga           Kansas St.        no edge                               no edge               
          Gardner Webb      Bowling Green     no edge                               no edge               
+         Idaho St.         Boise St.         no edge                               no edge               
          Hampton           Old Dominion      no edge                               no edge               
          Vermont           Siena             no edge                               no edge               
          Rider             Loyola MD         no edge                               no edge               
          Duquesne          High Point        no edge                               no edge               
          West Georgia      Tennessee Tech    no edge                               no edge               
-         Maryland          Tennessee         no edge                               no edge               
-         Detroit Mercy     North Dakota      no edge                               no edge               
+         Tennessee         Maryland          no edge                               no edge               
+         UNC Asheville     Florida St.       no edge                               no edge               
+         North Dakota      Detroit Mercy     no edge                               no edge               
          Illinois St.      Tulsa             no edge                               no edge               
+         Grand Canyon      Saint Louis       no edge                               no edge               
+         Sam Houston St.   Washington St.    no edge                               no edge               
          Southern Utah     FIU               no edge                               no edge               
          Bellarmine        Georgia Southern  no edge                               no edge               
+         UNC Greensboro    UC Santa Barbara  no edge                               no edge               
          Wright St.        St. Bonaventure   no edge                               no edge               
          Creighton         Michigan          no edge                               no edge               
          DePaul            Purdue            no edge                               no edge               
          Central Michigan  Notre Dame        no edge                               no edge               
          Eastern Michigan  Kennesaw St.      no edge                               no edge               
          Green Bay         Kansas City       no edge                               no edge               
-         Ohio              New Mexico St.    no edge                               no edge               
+         New Mexico St.    Ohio              no edge                               no edge               
+         Milwaukee         Florida           no edge                               no edge               
+         Bryant            Marist            no edge                               no edge               
+         Providence        Arizona           no edge                               no edge               
+         Purdue Fort Wayne Southeast Missour no edge                               no edge               
+         Belmont           Akron             no edge                               no edge               
