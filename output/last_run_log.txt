@@ -1,4 +1,3 @@
-  Graded 57 finished games.
 Results log: 958 games graded (2026-11-05 to 2026-11-25)
   Need 52.4% to profit at -110. CLV = points the line moved your way before tip-off.
 
@@ -52,18 +51,17 @@ Results log: 958 games graded (2026-11-05 to 2026-11-25)
     spread: no model beats a coin flip out-of-sample yet (market only)
     total:  no model beats a coin flip out-of-sample yet (market only)
 
-  Bart Torvik       0 games
-      (0 KB page)  ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provid
+  Bart Torvik      22 games (from manual/torvik_20261126.csv)
   Haslametrics     21 games
   Massey           21 games
   Talisman Red     22 games
-      Dunkel loader: 3 clicks, 10 cards, last Thursday: 26 November | 08:00, stopped: nothing new loaded
-  Dunkel            1 games
+      Dunkel loader: 3 clicks, 10 cards, last Thursday: 26 November | 09:00, stopped: nothing new loaded
+  Dunkel            2 games
   Sasser            0 games
       (132 KB page) College Basketball Predictions — David Sasser DS David Sasser CBB CFB NFL NBA CBB Join Discord Join Patreon CBB Predictions Thursday, November 26 · Today's games Try New Games Updated November 25 · 8:32 AM CT Model projections, sportsbook lines, and picks. All times Central All games 8 AP Top 25 6 T
   Market (ESPN/DK)   21 games
 
-21 games -> cbb_consensus_20261126.csv, cbb_consensus_20261126.html
+22 games -> cbb_consensus_20261126.csv, cbb_consensus_20261126.html
 
 Blended model = market only right now (no model's disagreement with the market has predicted bet
 results better than a coin flip in testing yet), so there are no picks.
@@ -89,5 +87,6 @@ Start    Away              Home              Spread pick                   Flag 
 6:00 PM  Louisville        St. John's        no edge                               no edge               
 6:00 PM  Alabama           Kansas St.        no edge                               no edge               
 7:30 PM  Pacific           Nebraska Omaha    no edge                               no edge               
-8:30 PM  Baylor            Gonzaga           no edge                               no edge               
 8:30 PM  Texas Tech        Oregon            no edge                               no edge               
+8:30 PM  Baylor            Gonzaga           no edge                               no edge               
+         Loyola Chicago    Massachusetts                                                                 
