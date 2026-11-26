@@ -51,16 +51,16 @@ Results log: 901 games graded (2026-11-05 to 2026-11-24)
     spread: no model beats a coin flip out-of-sample yet (market only)
     total:  no model beats a coin flip out-of-sample yet (market only)
 
-  Bart Torvik    using the page fetched earlier in this run
-  Bart Torvik      61 games
+  Bart Torvik       0 games
+      (0 KB page)  ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provid
   Haslametrics     58 games
   Massey           60 games
   Talisman Red     58 games
       Dunkel loader: 3 clicks, 10 cards, last Wednesday: 25 November | 10:30, stopped: nothing new loaded
   Dunkel           10 games
   Sasser           20 games
-  Market (ESPN/DK)   13 games
-  Kept 44 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)    7 games
+  Kept 109 lines from today's earlier run that are no longer posted (games started/finished)
 
 59 games -> cbb_consensus_20261125.csv, cbb_consensus_20261125.html
 
@@ -69,13 +69,7 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-4:50 PM  SMU               Utah St.          no edge                               no edge               
-5:00 PM  Cal St. Bakersfie Pepperdine        no edge                               no edge               
-5:00 PM  Nebraska Omaha    UC Davis          no edge                               no edge               
-5:30 PM  Eastern Michigan  UTEP              no edge                               no edge               
-6:00 PM  Mississippi Valle New Mexico        no edge                               no edge               
-6:00 PM  Eastern Washingto Loyola Marymount  no edge                               no edge               
-6:05 PM  Wake Forest       Mississippi St.   no edge                               no edge               
+6:29 PM  Wake Forest       Mississippi St.   no edge                               no edge               
 6:30 PM  Grand Canyon      Colorado          no edge                               no edge               
 7:00 PM  Washington        VCU               no edge                               no edge               
 7:30 PM  Pacific           Jacksonville St.  no edge                               no edge               
@@ -93,9 +87,15 @@ Start    Away              Home              Spread pick                   Flag 
          West Florida      Northwestern St.  no edge                               no edge               
          Norfolk St.       N.C. State        no edge                               no edge               
          Saint Peter's     Columbia          no edge                               no edge               
+         Eastern Michigan  UTEP              no edge                               no edge               
          BYU               Providence        no edge                               no edge               
          Florida Gulf Coas Georgia St.       no edge                               no edge               
          Prairie View A&M  Marshall          no edge                               no edge               
+         Cal St. Bakersfie Pepperdine        no edge                               no edge               
          Liberty           Princeton         no edge                               no edge               
          South Carolina    USC               no edge                               no edge               
          North Dakota      Southeastern Loui no edge                               no edge               
+         Bellarmine        Northern Kentucky no edge                               no edge               
+         Connecticut       Duke              no edge                               no edge               
+         Holy Cross        Dartmouth         no edge                               no edge               
+         Northeastern      Wisconsin         no edge                               no edge               
