@@ -55,11 +55,12 @@ Results log: 958 games graded (2026-11-05 to 2026-11-25)
   Haslametrics     21 games
   Massey           21 games
   Talisman Red     22 games
-      Dunkel loader: 3 clicks, 10 cards, last Thursday: 26 November | 09:00, stopped: nothing new loaded
-  Dunkel            2 games
+      Dunkel loader: 3 clicks, 10 cards, last Thursday: 26 November | 13:30, stopped: nothing new loaded
+  Dunkel           10 games
   Sasser            0 games
       (132 KB page) College Basketball Predictions — David Sasser DS David Sasser CBB CFB NFL NBA CBB Join Discord Join Patreon CBB Predictions Thursday, November 26 · Today's games Try New Games Updated November 25 · 8:32 AM CT Model projections, sportsbook lines, and picks. All times Central All games 8 AP Top 25 6 T
-  Market (ESPN/DK)   21 games
+  Market (ESPN/DK)    9 games
+  Kept 12 lines from today's earlier run that are no longer posted (games started/finished)
 
 22 games -> cbb_consensus_20261126.csv, cbb_consensus_20261126.html
 
@@ -68,18 +69,6 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-8:00 AM  Georgia           Cincinnati        no edge                               no edge               
-9:00 AM  Oklahoma          Purdue            no edge                               no edge               
-9:00 AM  Army              UTSA              no edge                               no edge               
-10:00 AM San Diego St.     Maryland          no edge                               no edge               
-10:30 AM Boston College    UCF               no edge                               no edge               
-11:00 AM South Carolina    Arizona St.       no edge                               no edge               
-11:30 AM Georgetown        Texas             no edge                               no edge               
-12:30 PM Miami FL          Michigan          no edge                               no edge               
-12:30 PM Tennessee         Iowa St.          no edge                               no edge               
-1:30 PM  Arkansas          Michigan St.      no edge                               no edge               
-1:30 PM  Utah St.          USC               no edge                               no edge               
-2:00 PM  Saint Mary's      UCLA              no edge                               no edge               
 3:00 PM  TCU               Creighton         no edge                               no edge               
 4:00 PM  SMU               LSU               no edge                               no edge               
 4:00 PM  DePaul            Pittsburgh        no edge                               no edge               
@@ -89,4 +78,16 @@ Start    Away              Home              Spread pick                   Flag 
 7:30 PM  Pacific           Nebraska Omaha    no edge                               no edge               
 8:30 PM  Texas Tech        Oregon            no edge                               no edge               
 8:30 PM  Baylor            Gonzaga           no edge                               no edge               
+         South Carolina    Arizona St.       no edge                               no edge               
+         San Diego St.     Maryland          no edge                               no edge               
+         Miami FL          Michigan          no edge                               no edge               
+         Purdue            Oklahoma          no edge                               no edge               
+         Tennessee         Iowa St.          no edge                               no edge               
+         Arkansas          Michigan St.      no edge                               no edge               
+         Boston College    UCF               no edge                               no edge               
+         Saint Mary's      UCLA              no edge                               no edge               
+         Utah St.          USC               no edge                               no edge               
+         Georgetown        Texas             no edge                               no edge               
+         Army              UTSA              no edge                               no edge               
+         Georgia           Cincinnati        no edge                               no edge               
          Loyola Chicago    Massachusetts                                                                 
