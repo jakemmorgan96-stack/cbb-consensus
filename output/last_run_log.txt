@@ -1,4 +1,3 @@
-  Graded 21 finished games.
 Results log: 979 games graded (2026-11-05 to 2026-11-26)
   Need 52.4% to profit at -110. CLV = points the line moved your way before tip-off.
 
@@ -52,14 +51,13 @@ Results log: 979 games graded (2026-11-05 to 2026-11-26)
     spread: no model beats a coin flip out-of-sample yet (market only)
     total:  no model beats a coin flip out-of-sample yet (market only)
 
-  Bart Torvik       0 games
-      (0 KB page)  ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provid
+  Bart Torvik      49 games (from manual/torvik_20261127.csv)
   Haslametrics     39 games
   Massey           50 games
   Talisman Red     49 games
       Dunkel loader: 3 clicks, 10 cards, last Friday: 27 November | 11:00, stopped: nothing new loaded
   Dunkel            7 games
-  Sasser         not posted yet (usually around midday CT) - re-run this afternoon to add it
+  Sasser           20 games
   Market (ESPN/DK)   49 games
 
 49 games -> cbb_consensus_20261127.csv, cbb_consensus_20261127.html
@@ -81,15 +79,15 @@ Start    Away              Home              Spread pick                   Flag 
 11:00 AM Navy              Fairfield         no edge                               no edge               
 11:30 AM Georgetown        UCLA              no edge                               no edge               
 12:00 PM Princeton         UNC Wilmington    no edge                               no edge               
+12:00 PM TCU               Baylor            no edge                               no edge               
 12:00 PM Bellarmine        Butler            no edge                               no edge               
 12:00 PM Texas St.         Louisiana Tech    no edge                               no edge               
-12:00 PM TCU               Baylor            no edge                               no edge               
 12:30 PM Colgate           Hofstra           no edge                               no edge               
 12:30 PM Oregon            Maryland          no edge                               no edge               
 12:30 PM La Salle          Bucknell          no edge                               no edge               
 1:00 PM  Arkansas Pine Blu Missouri          no edge                               no edge               
-1:00 PM  UMBC              George Washington no edge                               no edge               
 1:00 PM  Radford           American          no edge                               no edge               
+1:00 PM  UMBC              George Washington no edge                               no edge               
 1:30 PM  Niagara           Lafayette         no edge                               no edge               
 1:30 PM  Cincinnati        Boston College    no edge                               no edge               
 2:00 PM  Old Dominion      Virginia Tech     no edge                               no edge               
