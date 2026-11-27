@@ -59,8 +59,8 @@ Results log: 958 games graded (2026-11-05 to 2026-11-25)
   Dunkel           10 games
   Sasser            0 games
       (132 KB page) College Basketball Predictions — David Sasser DS David Sasser CBB CFB NFL NBA CBB Join Discord Join Patreon CBB Predictions Thursday, November 26 · Today's games Try New Games Updated November 25 · 8:32 AM CT Model projections, sportsbook lines, and picks. All times Central All games 8 AP Top 25 6 T
-  Market (ESPN/DK)    9 games
-  Kept 12 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)    6 games
+  Kept 15 lines from today's earlier run that are no longer posted (games started/finished)
 
 22 games -> cbb_consensus_20261126.csv, cbb_consensus_20261126.html
 
@@ -69,9 +69,6 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-3:00 PM  TCU               Creighton         no edge                               no edge               
-4:00 PM  SMU               LSU               no edge                               no edge               
-4:00 PM  DePaul            Pittsburgh        no edge                               no edge               
 5:00 PM  Jacksonville St.  UC Davis          no edge                               no edge               
 6:00 PM  Louisville        St. John's        no edge                               no edge               
 6:00 PM  Alabama           Kansas St.        no edge                               no edge               
@@ -81,6 +78,7 @@ Start    Away              Home              Spread pick                   Flag 
          South Carolina    Arizona St.       no edge                               no edge               
          San Diego St.     Maryland          no edge                               no edge               
          Miami FL          Michigan          no edge                               no edge               
+         LSU               SMU               no edge                               no edge               
          Purdue            Oklahoma          no edge                               no edge               
          Tennessee         Iowa St.          no edge                               no edge               
          Arkansas          Michigan St.      no edge                               no edge               
@@ -88,6 +86,8 @@ Start    Away              Home              Spread pick                   Flag 
          Saint Mary's      UCLA              no edge                               no edge               
          Utah St.          USC               no edge                               no edge               
          Georgetown        Texas             no edge                               no edge               
+         Creighton         TCU               no edge                               no edge               
          Army              UTSA              no edge                               no edge               
+         DePaul            Pittsburgh        no edge                               no edge               
          Georgia           Cincinnati        no edge                               no edge               
          Loyola Chicago    Massachusetts                                                                 
