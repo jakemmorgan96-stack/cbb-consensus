@@ -58,8 +58,8 @@ Results log: 979 games graded (2026-11-05 to 2026-11-26)
       Dunkel loader: 3 clicks, 10 cards, last Friday: 27 November | 11:00, stopped: nothing new loaded
   Dunkel           10 games
   Sasser           20 games
-  Market (ESPN/DK)   22 games
-  Kept 27 lines from today's earlier run that are no longer posted (games started/finished)
+  Market (ESPN/DK)   13 games
+  Kept 36 lines from today's earlier run that are no longer posted (games started/finished)
 
 49 games -> cbb_consensus_20261127.csv, cbb_consensus_20261127.html
 
@@ -68,15 +68,6 @@ results better than a coin flip in testing yet), so there are no picks.
 The model-average and Torvik columns in the sheet are still there for tracking.
 
 Start    Away              Home              Spread pick                   Flag    Total pick            Flag  
-2:30 PM  Drake             Boise St.         no edge                               no edge               
-2:30 PM  Michigan          Kansas St.        no edge                               no edge               
-3:00 PM  Western Kentucky  Illinois          no edge                               no edge               
-3:00 PM  Bowling Green     Indiana           no edge                               no edge               
-3:00 PM  Towson            Penn              no edge                               no edge               
-4:00 PM  West Virginia     North Carolina    no edge                               no edge               
-4:00 PM  UCF               Georgia           no edge                               no edge               
-4:00 PM  Lehigh            UC Santa Barbara  no edge                               no edge               
-4:00 PM  Charleston Southe East Tennessee St no edge                               no edge               
 4:30 PM  Oakland           Houston           no edge                               no edge               
 4:30 PM  Penn St.          Mississippi St.   no edge                               no edge               
 5:00 PM  Idaho             Washington St.    no edge                               no edge               
@@ -91,10 +82,19 @@ Start    Away              Home              Spread pick                   Flag 
 8:00 PM  Creighton         Gonzaga           no edge                               no edge               
 8:30 PM  San Diego St.     Texas Tech        no edge                               no edge               
          Old Dominion      Virginia Tech     no edge                               no edge               
+         Western Kentucky  Illinois          no edge                               no edge               
          Villanova         Kansas            no edge                               no edge               
          Vermont           Merrimack         no edge                               no edge               
          Liberty           St. Thomas        no edge                               no edge               
          Saint Mary's      Texas             no edge                               no edge               
+         North Carolina    West Virginia     no edge                               no edge               
+         Georgia           UCF               no edge                               no edge               
          Arkansas Pine Blu Missouri          no edge                               no edge               
          Marquette         Texas A&M         no edge                               no edge               
          South Alabama     Fresno St.        no edge                               no edge               
+         Radford           American          no edge                               no edge               
+         Southern          Vanderbilt        no edge                               no edge               
+         Bowling Green     Indiana           no edge                               no edge               
+         Wake Forest       Memphis           no edge                               no edge               
+         Princeton         UNC Wilmington    no edge                               no edge               
+         UMBC              George Washington no edge                               no edge               
